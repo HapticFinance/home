@@ -1,0 +1,71 @@
+/* Shared CSS styles for components */
+
+.dh1 {
+    font-size: 36px;
+    color: #f0f3e7; 
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family:monospace;
+
+}
+
+.statBox {
+    border:2px solid gray; 
+    border-radius: 5px; 
+    /*padding: 5px 5px 5px 10px;*/
+    background-color: #f1f2eb;
+}
+
+.statBoxLabel {
+    background-color:#d9d9d9;
+    border-radius:inherit;
+    padding:5px 5px 5px 5px;
+    color: white;
+    font-family:"monospace"
+}
+
+.infinityApprovalLabel {
+    font-size:11px;
+    color:beige;
+    margin-top:5px; 
+}
+
+.topMargin5pxCol {
+    margin-top:10px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(355deg, #ada8b3, #717073);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.topMargin {
+    font-size: 16px;
+    color:black;
+    font-weight: 500;
+} 
+.topMargin5px {
+    font-size: 16px;
+    color:black;
+    font-weight: 500;
+} 
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 400px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+}
+
+.footerSidebar {
+    height:40px;
+    width:100%;
+        position:absolute;
+        bottom:0;
+}
+
+.footerSidebarSpan {
+    color: #edf2f7
+}
+
