@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import '@fontsource/inter/variable.css'
@@ -117,7 +117,6 @@ export const App = () => {
   return (
     <ChakraProvider theme={myTheme}>
       <NavBar />
-      <Header />
       <Features />
     </ChakraProvider>
   )
