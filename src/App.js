@@ -42,19 +42,19 @@ import {
   TabList
 } from '@chakra-ui/react'
 
-import { HiArrowRight } from 'react-icons/hi'
-
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { FiMenu } from 'react-icons/fi'
-import { Logo } from './Logo'
-
+import { RightArrow } from 'react-icons/hi'
 import {isMobile} from 'react-device-detect'
 
 // 1.1 Import Views
 import NavBar from "./views/Navbar";
 import Header from "./views/Header";
 import Features from "./views/Features"
-
+import Banner from "./views/Banner";
+import Roadmap from "./views/Roadmap";
+import Footer from "./views/Footer";
+import Team from "./views/Team";
+import Lenders from "./views/Lenders";
+import Content from "./views/Content";
 
 export const App = () => {
 
@@ -117,7 +117,14 @@ export const App = () => {
   return (
     <ChakraProvider theme={myTheme}>
       <NavBar />
+      <Header />
+      <Content />
+      <Lenders />
+      <Banner />
       <Features />
+      <Team />
+      {/* <Roadmap /> */}
+      <Footer />
     </ChakraProvider>
   )
 }
