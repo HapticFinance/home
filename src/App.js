@@ -121,9 +121,9 @@ export const App = () => {
       <Banner />
       <Content />
       <Lenders />
-      {/* <Features /> */}
+      <Features />
+      <Roadmap />
       <Team />
-      {/* <Roadmap /> */}
       <Footer />
     </ChakraProvider>
   )

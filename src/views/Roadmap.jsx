@@ -17,6 +17,14 @@ export const Roadmap = () => {
           md: '8',
         }}
       >
+        <Container>
+          <h1
+            style={{
+              fontSize: '2.5em',
+              paddingBottom: '5vh',
+            }}
+          >Roadmap</h1>
+        </Container>
         <Stack
           spacing="0"
           direction={{
