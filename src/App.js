@@ -101,8 +101,8 @@ export const App = () => {
       global: {
         // styles for the `body`
         body: {
-          bg: 'gray.400',
-          color: 'white',
+          // bg: 'gray.400',
+          color: 'blue.500',
         },
         // styles for the `a`
         a: {
@@ -118,10 +118,10 @@ export const App = () => {
     <ChakraProvider theme={myTheme}>
       <NavBar />
       <Header />
+      <Banner />
       <Content />
       <Lenders />
-      <Banner />
-      <Features />
+      {/* <Features /> */}
       <Team />
       {/* <Roadmap /> */}
       <Footer />

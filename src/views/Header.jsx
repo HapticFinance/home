@@ -68,9 +68,9 @@ import {
             />
             <Img
               pos="relative"
-              marginEnd="-16rem"
-              w="50rem"
-              src="https://res.cloudinary.com/chakra-ui-pro/image/upload/v1621082943/pro-website/screenshot-dark_w6jpks.png"
+              marginEnd="-10rem"
+              w="35rem"
+              src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
               alt="Screenshot for Form builder"
             />
           </Flex>
