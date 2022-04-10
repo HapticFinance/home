@@ -1,26 +1,18 @@
 export const links = [
     {
-      label: 'GoPay wallet app',
+      label: 'Lending',
       href: '#',
     },
     {
-      label: 'GoPay cashout',
+      label: 'AMMs',
       href: '#',
     },
     {
-      label: 'GoPay debit card',
+      label: 'Options',
       href: '#',
     },
     {
-      label: 'College savings',
-      href: '#',
-    },
-    {
-      label: 'Auto save plan',
-      href: '#',
-    },
-    {
-      label: '401k retirement savings',
+      label: 'Perpetuals',
       href: '#',
     },
   ]

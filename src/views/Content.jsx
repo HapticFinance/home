@@ -72,10 +72,10 @@ import {
                 }}
               >
                 <Box as="b" color={mode('blue.500', 'blue.300')}>
-                  Everything you need
+                  Everything you need to
                 </Box>
                 <Heading mt="4" mb="5" size="2xl" fontWeight="extrabold" lineHeight="1.2">
-                  Trustlessly manage your positions
+                  Trustlessly manage your defi portfolio
                 </Heading>
                 <Text fontSize="lg" color={mode('gray.600', 'gray.400')}>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit

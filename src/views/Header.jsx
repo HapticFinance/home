@@ -41,7 +41,7 @@ import {
               pt="6"
             >
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold">
-                Trustless interoperability protocol
+                Welcome to a future without impermanent loss
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -76,7 +76,7 @@ import {
           </Flex>
           <Box>
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-              Proudly trusted by 5,000+ companies and individuals
+              Interconnecting the world of decentralized finance
             </Text>
             <SimpleGrid
               mt="8"
@@ -93,12 +93,42 @@ import {
               }}
               fontSize="2xl"
             >
-              <Logos.ChatMonkey />
-              <Logos.Wakanda />
-              <Logos.Lighthouse />
-              <Logos.Plumtic />
-              <Logos.WorkScout />
-              <Logos.Finnik />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/ethereum.png'
+                style={{
+                  maxWidth:'5vw'
+                }}
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.png' 
+                style={{
+                  maxWidth:'5vw'
+                }}
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.png'
+                style={{
+                  maxWidth:'5vw'
+                }}  
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.png'
+                style={{
+                  maxWidth:'5vw'
+                }}  
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.png'
+                style={{
+                  maxWidth:'5vw'
+                }}  
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/kwenta.png'
+                style={{
+                  maxWidth:'5vw'
+                }}  
+              />
             </SimpleGrid>
           </Box>
         </Box>
