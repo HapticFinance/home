@@ -19,7 +19,7 @@ export const Lenders = () => (
   >
     <Stack maxW="xl" spacing="6">
       <Heading size="2xl" fontWeight="extrabold">
-        Select your preferred lender
+        Access multiple lending rates
       </Heading>
       <Text
         fontSize="lg"

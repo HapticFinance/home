@@ -20,10 +20,6 @@ import {
     return (
       <Box
         as="section"
-        pb={{
-          base: '12',
-          md: '24',
-        }}
       >
         <Box
           as="nav"
@@ -35,19 +31,24 @@ import {
         >
           <Container>
             <HStack spacing="10" justify="space-between">
-              <NavbarLogo />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg' 
+                style={{
+                  maxWidth:'100px'
+                }}
+              />
               {isDesktop ? (
                 <HStack spacing="10">
                   <ButtonGroup variant="link" spacing="8">
-                    {['Product', 'Pricing', 'Resources', 'Support'].map((item) => (
+                    {['Twitter', 'Medium', 'Discord', 'Github'].map((item) => (
                       <Button key={item}>{item}</Button>
                     ))}
                   </ButtonGroup>
-                  <Box>
+                  {/* <Box>
                     <Button variant="primary" py="10" px="6" my="-5" borderRadius="0">
-                      Get Started
+                      Announcement
                     </Button>
-                  </Box>
+                  </Box> */}
                 </HStack>
               ) : (
                 <IconButton

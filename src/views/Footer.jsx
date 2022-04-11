@@ -1,7 +1,7 @@
 import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
 import * as React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { FooterLogo } from './FooterLogo'
+// import { FooterLogo } from './FooterLogo'
 
 export const Footer = () => (
   <Container
@@ -19,7 +19,12 @@ export const Footer = () => (
       }}
     >
       <Stack justify="space-between" direction="row" align="center">
-        <FooterLogo />
+        <img 
+          src='https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg' 
+          style={{
+            maxWidth:'100px',
+          }}
+        />
         <ButtonGroup variant="ghost">
           <IconButton
             as="a"
@@ -37,7 +42,7 @@ export const Footer = () => (
         </ButtonGroup>
       </Stack>
       <Text fontSize="sm" color="subtle">
-        &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights reserved.
+        &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
       </Text>
     </Stack>
   </Container>

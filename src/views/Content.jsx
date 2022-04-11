@@ -49,7 +49,7 @@ import {
                 w="100%"
                 h="100%"
                 objectFit="cover"
-                src="https://raw.githubusercontent.com/HapticFinance/assets/main/optimistic_ethereum.png"
+                src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
               />
             </Box>
             <Box

@@ -70,7 +70,7 @@ import {
               pos="relative"
               marginEnd="-10rem"
               w="35rem"
-              src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
+              src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png"
               alt="Screenshot for Form builder"
             />
           </Flex>
@@ -94,40 +94,40 @@ import {
               fontSize="2xl"
             >
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/ethereum.png'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/ethereum.svg'
                 style={{
-                  maxWidth:'5vw'
+                  minWidth:'12vw',
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.png' 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg'
                 style={{
-                  maxWidth:'5vw'
+                  minWidth:'12vw',
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.png'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
                 style={{
-                  maxWidth:'5vw'
-                }}  
+                  minWidth:'12vw',
+                }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.png'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg'
                 style={{
-                  maxWidth:'5vw'
-                }}  
+                  minWidth:'12vw',
+                }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.png'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg'
                 style={{
-                  maxWidth:'5vw'
-                }}  
+                  minWidth:'12vw',
+                }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/kwenta.png'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
                 style={{
-                  maxWidth:'5vw'
-                }}  
+                  minWidth:'12vw',
+                }}
               />
             </SimpleGrid>
           </Box>

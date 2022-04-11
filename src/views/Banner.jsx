@@ -88,7 +88,7 @@ import {
                 }}
               >
                 <Text fontWeight="medium">
-                  We use our own and third-party cookies to personalize content.
+                  We are launching an Aelin Round soon, stay tuned for official dates.
                 </Text>
                 <Text color="muted">
                   Read our <Link>Cookie Policy</Link>
