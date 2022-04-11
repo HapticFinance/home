@@ -54,7 +54,7 @@ import {
               >
                 Meet our team
               </Heading>
-              <Text
+              {/* <Text
                 fontSize={{
                   base: 'lg',
                   md: 'xl',
@@ -62,7 +62,7 @@ import {
                 color="muted"
               >
                 Chupa chups pudding marzipan cake chocolate shortbread macaroon oat cake.
-              </Text>
+              </Text> */}
             </Stack>
           </Stack>
           <SimpleGrid
