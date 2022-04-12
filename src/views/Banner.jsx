@@ -91,7 +91,7 @@ import {
                   We are launching an Aelin Round soon, stay tuned for official dates.
                 </Text>
                 <Text color="muted">
-                  Read our <Link>Cookie Policy</Link>
+                  Get familiarized with the Aelin protool at <Link>Aelin.xyz</Link>
                 </Text>
               </Stack>
             </Stack>

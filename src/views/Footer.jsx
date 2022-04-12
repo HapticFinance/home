@@ -1,6 +1,6 @@
 import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaDiscord, FaMedium, FaTwitter } from 'react-icons/fa'
 // import { FooterLogo } from './FooterLogo'
 
 export const Footer = () => (
@@ -28,16 +28,27 @@ export const Footer = () => (
         <ButtonGroup variant="ghost">
           <IconButton
             as="a"
-            href="#"
-            aria-label="LinkedIn"
-            icon={<FaLinkedin fontSize="1.25rem" />}
-          />
-          <IconButton as="a" href="#" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
-          <IconButton
-            as="a"
-            href="#"
+            href="https://twitter.com/hapticfinance"
             aria-label="Twitter"
             icon={<FaTwitter fontSize="1.25rem" />}
+          />
+          <IconButton 
+            as="a" 
+            href="https://discord.gg/ahJVRvjyzk" 
+            aria-label="Discord" 
+            icon={<FaDiscord fontSize="1.25rem" />} 
+          />
+          <IconButton
+            as="a"
+            href="https://medium.com/@hapticfinance"
+            aria-label="Medium"
+            icon={<FaMedium fontSize="1.25rem" />}
+          />
+          <IconButton 
+            as="a" 
+            href="https://github.com/HapticFinance" 
+            aria-label="GitHub" 
+            icon={<FaGithub fontSize="1.25rem" />} 
           />
         </ButtonGroup>
       </Stack>

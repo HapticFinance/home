@@ -55,6 +55,8 @@ import Footer from "./views/Footer";
 import Team from "./views/Team";
 import Lenders from "./views/Lenders";
 import Content from "./views/Content";
+import Newsletter from "./views/Newsletter";
+import FAQ from "./views/FAQ";
 
 export const App = () => {
 
@@ -106,7 +108,7 @@ export const App = () => {
         },
         // styles for the `a`
         a: {
-          color: 'teal.500',
+          color: 'blue.500',
           _hover: {
             textDecoration: 'underline',
           },
@@ -122,8 +124,10 @@ export const App = () => {
       <Content />
       <Lenders />
       <Features />
-      <Roadmap />
       <Team />
+      <Roadmap />
+      {/* <FAQ /> */}
+      <Newsletter />
       <Footer />
     </ChakraProvider>
   )

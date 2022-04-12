@@ -94,7 +94,7 @@ import {
                         </Text>
                         <Text color="accent">{member.role}</Text>
                       </Box>
-                      <Text color="muted">{member.description}</Text>
+                      <Text color="muted">{member.twitter}</Text>
                     </Stack>
                   </Stack>
                   <HStack spacing="4" color="subtle">

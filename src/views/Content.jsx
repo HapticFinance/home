@@ -78,8 +78,7 @@ import {
                   Trustlessly manage your defi portfolio
                 </Heading>
                 <Text fontSize="lg" color={mode('gray.600', 'gray.400')}>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-                  officia consequat duis enim velit mollit.
+                Haptic is built around composability principles and leverages existing protocols to achieve its functionality.
                 </Text>
               </Box>
               <SimpleGrid

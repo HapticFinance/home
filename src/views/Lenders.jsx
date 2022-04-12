@@ -26,8 +26,7 @@ export const Lenders = () => (
         fontWeight="medium"
         color={useColorModeValue('gray.600', 'whiteAlpha.700')}
       >
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-        consequat duis enim.
+        Borrowers deposit ETH collateral to receive a stablecoin denominated loan from a third party protocol.
       </Text>
     </Stack>
     <SimpleGrid
@@ -44,23 +43,21 @@ export const Lenders = () => (
       <LendersStat
         title="Compound"
         value="3%"
-        accentColor={useColorModeValue('green.500', 'green.300')}
+        accentColor={useColorModeValue('blue.500', 'blue.300')}
       >
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor.
+        {/* Amet minim mollit non deserunt ullamco est sit aliqua dolor. */}
       </LendersStat>
       <LendersStat
         title="Synthetix"
         value="2.5%"
         accentColor={useColorModeValue('blue.500', 'blue.300')}
       >
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor.
       </LendersStat>
       <LendersStat
-        title="Aave"
+        title="Maker"
         value="1.8%"
-        accentColor={useColorModeValue('pink.500', 'pink.300')}
+        accentColor={useColorModeValue('blue.500', 'blue.300')}
       >
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor.
       </LendersStat>
     </SimpleGrid>
   </Stack>

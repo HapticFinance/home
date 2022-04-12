@@ -1,23 +1,23 @@
 export const steps = [
     {
-      title: 'Step 1',
-      description: 'Description',
+      title: 'Seed Round',
+      description: 'To be held on Aelin.xyz',
     },
     {
       title: 'Step 2',
       description: 'Description',
     },
     {
-      title: 'Step 3',
-      description: 'Description',
+      title: 'Testnet Launch',
+      description: 'Initial product releases',
     },
     {
       title: 'Step 4',
       description: 'Description',
     },
     {
-      title: 'Step 5',
-      description: 'Description',
+      title: 'Optimism',
+      description: 'Mainnet Launch',
     },
   ]
   

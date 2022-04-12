@@ -41,11 +41,10 @@ import {
               pt="6"
             >
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold">
-                Welcome to a future without impermanent loss
+                Reduce your impermanent loss
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua adipiscing elit.
+                The Haptic protocol is a system of smart contracts designed to increase capital efficiency and reduce the impact of impermanent loss.
               </Text>
               <Button
                 mt="8"
@@ -57,7 +56,7 @@ import {
                 fontSize="md"
                 fontWeight="bold"
               >
-                Get Started for free
+                Official Announcement
               </Button>
             </Box>
             <Box
@@ -68,10 +67,10 @@ import {
             />
             <Img
               pos="relative"
-              marginEnd="-10rem"
-              w="35rem"
+              // marginEnd="-10rem"
+              w="30rem"
               src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png"
-              alt="Screenshot for Form builder"
+              alt="Haptic Logo"
             />
           </Flex>
           <Box>
@@ -118,7 +117,7 @@ import {
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg'
                 style={{
                   minWidth:'12vw',
                 }}

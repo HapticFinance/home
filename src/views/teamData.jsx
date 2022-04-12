@@ -4,14 +4,19 @@ export const members = [
       image:
         'https://raw.githubusercontent.com/HapticFinance/assets/main/folch.png',
       name: 'Ernesto Folch',
-      description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      github: 'https://github.com/folchzapata',
+      linkedin: 'https://linkedin/in/folchzapata',
+      twitter: 'https://twitter.com/folchzapata',
+      // description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     },
     {
       role: 'Software Engineer',
       image:
         'https://raw.githubusercontent.com/HapticFinance/assets/main/albert.png',
       name: '0xAlbert',
-      description: 'Habitant morbi tristique senectus et netus et malesuada fames. Vestibulum morbi',
+      github: 'https://github.com/0xalbert',
+      twitter: 'https://twitter.com/0xalbert',
+      // description: 'Habitant morbi tristique senectus et netus et malesuada fames. Vestibulum morbi',
     },
     // {
     //   role: 'Marketing Manager',
