@@ -99,7 +99,7 @@ import {
                   </Stack>
                   <HStack spacing="4" color="subtle">
                     {[FaGithub, FaLinkedin, FaTwitter].map((item, id) => (
-                      <Link href="#" key={id}>
+                      <Link href={member.twitter} key={id}>
                         <Icon as={item} boxSize="5" />
                       </Link>
                     ))}
