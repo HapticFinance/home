@@ -4,7 +4,6 @@ import { BiDirections, BiHappyBeaming } from 'react-icons/bi'
 import { FaGraduationCap, FaRegLifeRing } from 'react-icons/fa'
 import { FeaturesCTAButton } from './FeaturesCTAButton'
 import { Feature } from './Feature'
-import { Testimonial } from './Testimonial'
 
 export const Features = () => {
   return (
@@ -103,24 +102,6 @@ export const Features = () => {
               lg: 2,
             }}
           >
-            {/* <Testimonial
-              image="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"
-              name="Alvina Tores"
-              role="CEO, Chakra Group"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </Testimonial>
-            <Testimonial
-              image="https://images.unsplash.com/photo-1589729482945-ca6f3a235f7a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80"
-              name="Jessie Jones"
-              role="Marketing Manager"
-            >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco.
-            </Testimonial> */}
           </SimpleGrid>
         </Box>
       </Box>

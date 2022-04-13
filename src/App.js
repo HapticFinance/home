@@ -10,8 +10,6 @@ import * as foundations from './foundations';
 // 1. Import the utilities
 import { createBreakpoints } from '@chakra-ui/theme-tools'
 
-import { features } from './data'
-
 import {
   Grid,
   Img,
@@ -41,9 +39,6 @@ import {
   Tabs,
   TabList
 } from '@chakra-ui/react'
-
-import { RightArrow } from 'react-icons/hi'
-import {isMobile} from 'react-device-detect'
 
 // 1.1 Import Views
 import NavBar from "./views/Navbar";
