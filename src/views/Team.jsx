@@ -94,12 +94,21 @@ import {
                         </Text>
                         <Text color="accent">{member.role}</Text>
                       </Box>
-                      <Text color="muted">{member.twitter}</Text>
                     </Stack>
                   </Stack>
                   <HStack spacing="4" color="subtle">
-                    {[FaGithub, FaLinkedin, FaTwitter].map((item, id) => (
+                    {[FaTwitter].map((item, id) => (
                       <Link href={member.twitter} key={id}>
+                        <Icon as={item} boxSize="5" />
+                      </Link>
+                    ))}
+                    {/* {[FaLinkedin].map((item, id) => (
+                      <Link href={member.linkedin} key={id}>
+                        <Icon as={item} boxSize="5" />
+                      </Link>
+                    ))} */}
+                    {[FaGithub].map((item, id) => (
+                      <Link href={member.github} key={id}>
                         <Icon as={item} boxSize="5" />
                       </Link>
                     ))}

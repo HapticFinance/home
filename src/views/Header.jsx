@@ -105,7 +105,7 @@ import {
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg'
                 style={{
                   minWidth:'12vw',
                 }}
@@ -117,13 +117,13 @@ import {
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
                 style={{
                   minWidth:'12vw',
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
                 style={{
                   minWidth:'12vw',
                 }}

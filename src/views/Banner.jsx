@@ -77,7 +77,12 @@ import {
             >
               {!isMobile && (
                 <Square size="12" bg="bg-subtle" borderRadius="md">
-                  <Icon as={BiCookie} boxSize="6" />
+                  <img 
+                    src='https://raw.githubusercontent.com/HapticFinance/assets/main/aelin.jpeg' 
+                    style={{
+                      borderRadius:'25px'
+                    }}
+                  />
                 </Square>
               )}
               <Stack
@@ -88,10 +93,10 @@ import {
                 }}
               >
                 <Text fontWeight="medium">
-                  We are launching an Aelin Round soon, stay tuned for official dates.
+                  Stay tuned for announcements regarding our upcoming Aelin Launch.
                 </Text>
                 <Text color="muted">
-                  Get familiarized with the Aelin protool at <Link>Aelin.xyz</Link>
+                  Get familiarized with the <Link href='https://aelin.xyz/'>Aelin</Link> protocol.
                 </Text>
               </Stack>
             </Stack>
@@ -110,10 +115,7 @@ import {
               }}
             >
               <Button variant="secondary" isFullWidth>
-                Reject
-              </Button>
-              <Button variant="primary" isFullWidth>
-                Allow
+                Read more
               </Button>
               <CloseButton
                 display={{

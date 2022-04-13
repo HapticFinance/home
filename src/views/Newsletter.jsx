@@ -57,7 +57,7 @@ import {
                   md: 'md',
                 })}
               >
-                Sign up for our newsletter
+                Be the first to know
               </Heading>
               <Text
                 fontSize={{
@@ -66,7 +66,7 @@ import {
                 }}
                 color="muted"
               >
-                Be the first to know when we release new components
+                Stay tuned for protocol announcements
               </Text>
             </Stack>
             <Stack

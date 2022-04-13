@@ -7,7 +7,7 @@ import { useStep } from './useStep'
 export const Roadmap = () => {
   const [currentStep, { setStep }] = useStep({
     maxStep: steps.length,
-    initialStep: 2,
+    initialStep: 1,
   })
   return (
     <Box bg="bg-surface">
@@ -35,14 +35,14 @@ export const Roadmap = () => {
           {steps.map((step, id) => (
             <RoadmapStep
               key={id}
-              cursor="pointer"
-              onClick={() => setStep(id)}
+              // cursor="pointer"
+              // onClick={() => setStep(id)}
               title={step.title}
               description={step.description}
-              isActive={currentStep === id}
+              // isActive={currentStep === id}
               isCompleted={currentStep > id}
               isFirstStep={id === 0}
-              isLastStep={steps.length === id + 1}
+              isLastStep={steps.length === id}
             />
           ))}
         </Stack>

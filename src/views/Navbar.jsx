@@ -44,11 +44,11 @@ import {
                       <Button key={item}>{item}</Button>
                     ))}
                   </ButtonGroup>
-                  {/* <Box>
+                  <Box>
                     <Button variant="primary" py="10" px="6" my="-5" borderRadius="0">
                       Announcement
                     </Button>
-                  </Box> */}
+                  </Box>
                 </HStack>
               ) : (
                 <IconButton

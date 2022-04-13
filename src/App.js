@@ -104,7 +104,7 @@ export const App = () => {
         // styles for the `body`
         body: {
           // bg: 'gray.400',
-          color: 'blue.500',
+          color: 'blue.600',
         },
         // styles for the `a`
         a: {
