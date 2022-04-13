@@ -1,19 +1,15 @@
 export const links = [
     {
-      label: 'Lending',
-      href: '#',
+      label: 'Lending'
     },
     {
-      label: 'AMMs',
-      href: '#',
+      label: 'AMMs'
     },
     {
-      label: 'Options',
-      href: '#',
+      label: 'Options'
     },
     {
-      label: 'Perpetuals',
-      href: '#',
+      label: 'Perpetuals'
     },
   ]
   

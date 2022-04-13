@@ -9,7 +9,7 @@ import {
     useColorModeValue as mode,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import * as Logos from './HeaderBrands'
+
   export function Header() {
     return (
       <Box as="section" bg={mode('gray.50', 'gray.800')} pt="24" pb="12" overflow="hidden">

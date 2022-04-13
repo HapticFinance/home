@@ -22,7 +22,8 @@ import {
         }}
       >
         <Box
-          bg="bg-surface"
+          bg="linear-gradient(-45deg, #021b54, #462852)"
+          color="white"
           py={{
             base: '10',
             md: '16',
@@ -32,7 +33,7 @@ import {
             md: '16',
           }}
           borderRadius="lg"
-          boxShadow={useColorModeValue('sm', 'sm-dark')}
+          boxShadow={useColorModeValue('lg', 'lg-dark')}
         >
           <Stack
             spacing={{
@@ -64,7 +65,7 @@ import {
                   base: 'lg',
                   md: 'xl',
                 }}
-                color="muted"
+                color="subtle"
               >
                 Stay tuned for protocol announcements
               </Text>
