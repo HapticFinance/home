@@ -35,11 +35,8 @@ export const Roadmap = () => {
           {steps.map((step, id) => (
             <RoadmapStep
               key={id}
-              // cursor="pointer"
-              // onClick={() => setStep(id)}
               title={step.title}
               description={step.description}
-              // isActive={currentStep === id}
               isCompleted={currentStep > id}
               isFirstStep={id === 0}
               isLastStep={steps.length === id}

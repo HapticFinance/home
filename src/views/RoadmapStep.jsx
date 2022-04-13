@@ -37,7 +37,10 @@ export const RoadmapStep = (props) => {
           borderWidth="1px"
           borderColor={isFirstStep ? 'transparent' : isCompleted || isActive ? 'accent' : 'inherit'}
         />
-        <RoadmapStepCircle isActive={isActive} isCompleted={isCompleted} />
+        <RoadmapStepCircle 
+          isActive={isActive} 
+          // isCompleted={isCompleted} 
+        />
         <Divider
           orientation={orientation}
           borderWidth="1px"
