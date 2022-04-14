@@ -15,7 +15,7 @@ export const members = [
         'https://raw.githubusercontent.com/HapticFinance/assets/main/albert.png',
       name: '0xAlbert',
       github: 'https://github.com/0xalbert',
-      twitter: 'https://twitter.com/0xalbert',
+      twitter: 'https://twitter.com/0xalbert_',
       // description: 'Habitant morbi tristique senectus et netus et malesuada fames. Vestibulum morbi',
     },
     // {

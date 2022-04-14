@@ -1,6 +1,26 @@
-# React + Chakra-ui boilerplate
+# Haptic Finance
 
-## Caveats
-Latest version of framer-motion is not compatible with the pro-theme. Install a compatible version with:
+Homepage version 1
 
-```npm install --save  framer-motion@3.10.6 ```
+## Documentation
+
+### Dependencies
+
+* Node
+* React
+* Chakra
+
+### Installation
+
+*   Install NodeJs from [NodeJs Official Page](https://nodejs.org/en/)
+*   Run `npm install`
+*   Run `npm start`
+*   Run `npm run install:clean` (if you use a linux based terminal) which will install `node_modules` and also will start your project.
+
+## Links
+
+-   Twitter: <https://twitter.com/hapticfinance>
+
+-   Github: <https://github.com/HapticFinance/>
+
+-   Medium: <https://hapticfinance.medium.com/>

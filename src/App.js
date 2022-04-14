@@ -10,36 +10,6 @@ import * as foundations from './foundations';
 // 1. Import the utilities
 import { createBreakpoints } from '@chakra-ui/theme-tools'
 
-import {
-  Grid,
-  Img,
-  Box,
-  Button,
-  ButtonGroup,
-  Container,
-  Flex,
-  Drawer,
-  DrawerContent,
-  HStack,
-  IconButton,
-  Stack,
-  Square,
-  Icon,
-  Text,
-  Heading,
-  Divider,
-  SimpleGrid,
-  useBreakpointValue,
-  useColorModeValue,
-  useDisclosure,
-  useColorModeValue as mode,
-  Badge,
-  Tab,
-  TabIndicator,
-  Tabs,
-  TabList
-} from '@chakra-ui/react'
-
 // 1.1 Import Views
 import NavBar from "./views/Navbar";
 import Header from "./views/Header";

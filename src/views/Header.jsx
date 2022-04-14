@@ -96,42 +96,42 @@ import {
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/ethereum.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
                 style={{
                   minWidth:'10vw',
-                  maxWidth:'12vw',
+                  maxWidth:'30vw',
                 }}
               />
             </SimpleGrid>
