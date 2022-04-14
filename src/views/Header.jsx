@@ -75,7 +75,7 @@ import {
           </Flex>
           <Box>
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-              Interconnecting the world of decentralized finance
+              Connecting the world of decentralized finance
             </Text>
             <SimpleGrid
               mt="8"

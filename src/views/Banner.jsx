@@ -3,7 +3,6 @@ import {
     Button,
     CloseButton,
     Container,
-    Icon,
     Link,
     Square,
     Stack,
@@ -12,7 +11,6 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { BiCookie } from 'react-icons/bi'
   
   export const Banner = () => {
     const isMobile = useBreakpointValue({
@@ -121,12 +119,6 @@ import {
               >
                 Read more
               </Button>
-              <CloseButton
-                display={{
-                  base: 'none',
-                  md: 'inline-flex',
-                }}
-              />
             </Stack>
           </Stack>
         </Box>

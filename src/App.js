@@ -69,15 +69,19 @@ export const App = () => {
         // styles for the `body`
         body: {
           // bg: 'gray.400',
-          color: 'blue.600',
+          color: '#33429a',
         },
         // styles for the `a`
         a: {
-          color: 'blue.500',
+          color: '#33429a',
           _hover: {
             textDecoration: 'underline',
           },
         },
+        // styles for the `dl`
+        dl: {
+          color: '#33429a',
+        }
       },
     },
   })

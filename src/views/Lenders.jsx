@@ -43,20 +43,20 @@ export const Lenders = () => (
       <LendersStat
         title="Compound"
         value="3%"
-        accentColor={useColorModeValue('blue.500', 'blue.300')}
+        accentColor={useColorModeValue('#33429a')}
       >
         {/* Amet minim mollit non deserunt ullamco est sit aliqua dolor. */}
       </LendersStat>
       <LendersStat
         title="Synthetix"
         value="2.5%"
-        accentColor={useColorModeValue('blue.500', 'blue.300')}
+        accentColor={useColorModeValue('#33429a')}
       >
       </LendersStat>
       <LendersStat
         title="Maker"
         value="1.8%"
-        accentColor={useColorModeValue('blue.500', 'blue.300')}
+        accentColor={useColorModeValue('#33429a')}
       >
       </LendersStat>
     </SimpleGrid>
