@@ -46,7 +46,7 @@ import {
                   </ButtonGroup>
                   <Box>
                     <Button 
-                      background="linear-gradient(-45deg, #021b54, #462852)"
+                      background="linear-gradient(-45deg, #4e339a,#33429a)"
                       color="white"
                       variant="primary" 
                       py="10" 

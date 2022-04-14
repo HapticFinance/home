@@ -6,7 +6,7 @@ import { Feature } from './Feature'
 export const Features = () => {
   return (
     <Box as="section" pb="24">
-      <Box bg="linear-gradient(-45deg, #021b54, #462852)" color="white" pt="24" pb="12rem">
+      <Box bg="linear-gradient(-45deg, #4e339a,#33429a)" color="white" pt="24" pb="12rem">
         <Box
           maxW={{
             base: 'xl',

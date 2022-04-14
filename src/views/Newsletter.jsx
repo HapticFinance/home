@@ -22,7 +22,7 @@ import {
         }}
       >
         <Box
-          bg="linear-gradient(-45deg, #021b54, #462852)"
+          bg="linear-gradient(-45deg, #4e339a,#33429a)"
           color="white"
           py={{
             base: '10',

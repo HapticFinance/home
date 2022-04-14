@@ -41,13 +41,13 @@ import {
               pt="6"
             >
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold">
-                Reduce your impermanent loss
+                Bridging the world of decentralized finance
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
                 The Haptic protocol is a system of smart contracts designed to increase capital efficiency and reduce the impact of impermanent loss.
               </Text>
               <Button
-                background="linear-gradient(-45deg, #021b54, #462852)"
+                background="linear-gradient(-45deg, #4e339a,#33429a)"
                 mt="8"
                 minW="14rem"
                 colorScheme="blue"
@@ -57,7 +57,7 @@ import {
                 fontSize="md"
                 fontWeight="bold"
               >
-                Official Announcement
+                Read more
               </Button>
             </Box>
             <Box

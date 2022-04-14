@@ -71,11 +71,11 @@ import {
                   lg: 'unset',
                 }}
               >
-                <Box as="b" color={mode('blue.500', 'blue.300')}>
+                <Box as="b" color={mode('#33429a')}>
                   Everything you need to
                 </Box>
                 <Heading mt="4" mb="5" size="2xl" fontWeight="extrabold" lineHeight="1.2">
-                  Trustlessly manage your defi portfolio
+                  Manage your DeFi portfolio
                 </Heading>
                 <Text fontSize="lg" color={mode('gray.600', 'gray.400')}>
                 Haptic is built around composability principles and leverages existing protocols to achieve its functionality.
@@ -90,7 +90,7 @@ import {
               >
                 {links.map((link) => (
                   <Flex key={link.label} align="center" minH="14" borderBottomWidth="1px">
-                    <ContentFeatureLink href={link.href}>{link.label}</ContentFeatureLink>
+                    <h1 style={{fontWeight:'600'}}>{link.label}</h1>
                   </Flex>
                 ))}
               </SimpleGrid>
