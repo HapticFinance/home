@@ -45,7 +45,15 @@ import {
                     ))}
                   </ButtonGroup>
                   <Box>
-                    <Button variant="primary" py="10" px="6" my="-5" borderRadius="0">
+                    <Button 
+                      background="linear-gradient(-45deg, #021b54, #462852)"
+                      color="white"
+                      variant="primary" 
+                      py="10" 
+                      px="6" 
+                      my="-5" 
+                      borderRadius="0"
+                    >
                       Announcement
                     </Button>
                   </Box>

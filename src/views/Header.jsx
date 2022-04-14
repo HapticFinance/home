@@ -47,6 +47,7 @@ import {
                 The Haptic protocol is a system of smart contracts designed to increase capital efficiency and reduce the impact of impermanent loss.
               </Text>
               <Button
+                background="linear-gradient(-45deg, #021b54, #462852)"
                 mt="8"
                 minW="14rem"
                 colorScheme="blue"
