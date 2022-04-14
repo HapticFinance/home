@@ -71,6 +71,10 @@ import {
               w="30rem"
               src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png"
               alt="Haptic Logo"
+              display={{ 
+                lg:'inherit', 
+                sm:'none',
+              }}
             />
           </Flex>
           <Box>

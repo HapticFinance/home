@@ -50,6 +50,10 @@ import {
                 h="100%"
                 objectFit="cover"
                 src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
+                display={{
+                  lg:'inherit',
+                  sm:'none',
+                }}
               />
             </Box>
             <Box
