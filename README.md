@@ -1,16 +1,8 @@
 # Haptic Finance
 
-Homepage version 1
+Homepage v1 in React JS + Chakra
 
-## Documentation
-
-### Dependencies
-
-* Node
-* React
-* Chakra
-
-### Installation
+## Installation
 
 *   Install NodeJs from [NodeJs Official Page](https://nodejs.org/en/)
 *   Run `npm install`
