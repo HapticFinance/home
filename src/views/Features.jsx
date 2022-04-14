@@ -42,7 +42,7 @@ export const Features = () => {
               Impermanent loss protection
             </Heading>
             <FeaturesCTAButton
-              background='blue.500'
+              background='#1a1a1a'
               w={{
                 base: 'full',
                 md: 'auto',

@@ -114,7 +114,11 @@ import {
                 md: 'center',
               }}
             >
-              <Button variant="secondary" isFullWidth>
+              <Button 
+                bg="linear-gradient(-45deg, #021b54, #462852)"
+                color="white"
+                isFullWidth
+              >
                 Read more
               </Button>
               <CloseButton
