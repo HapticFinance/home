@@ -41,24 +41,11 @@ import {
               pt="6"
             >
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold">
-                Bridging the world of decentralized finance
+                Bridging decentralized finance
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
-                The Haptic protocol is a system of smart contracts designed to increase capital efficiency and reduce the impact of impermanent loss.
+                Haptic is a protocol designed to increase capital efficiency and reduce the impact of impermanent loss
               </Text>
-              <Button
-                background="linear-gradient(-45deg, #4e339a,#33429a)"
-                mt="8"
-                minW="14rem"
-                colorScheme="blue"
-                size="lg"
-                height="14"
-                px="8"
-                fontSize="md"
-                fontWeight="bold"
-              >
-                Read more
-              </Button>
             </Box>
             <Box
               boxSize={{
@@ -68,7 +55,7 @@ import {
             />
             <Img
               pos="relative"
-              w="30rem"
+              w="25rem"
               src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png"
               alt="Haptic Logo"
               display={{ 

@@ -17,7 +17,7 @@ export default {
       _dark: 'gray.600',
     },
     default: {
-      default: 'gray.900',
+      default: '#33429a',
       _dark: 'white',
     },
     inverted: {
@@ -33,11 +33,11 @@ export default {
       _dark: 'gray.300',
     },
     subtle: {
-      default: 'gray.500',
+      default: 'gray.300',
       _dark: 'gray.400',
     },
     border: {
-      default: 'gray.200',
+      default: 'gray.400',
       _dark: 'gray.700',
     },
     accent: {

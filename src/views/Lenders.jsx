@@ -26,7 +26,7 @@ export const Lenders = () => (
         fontWeight="medium"
         color={useColorModeValue('gray.600', 'whiteAlpha.700')}
       >
-        Borrowers deposit ETH collateral to receive a stablecoin denominated loan from a third party protocol.
+        Deposit ETH collateral to receive a stablecoin denominated loan from a third party protocol.
       </Text>
     </Stack>
     <SimpleGrid
@@ -43,20 +43,20 @@ export const Lenders = () => (
       <LendersStat
         title="Compound"
         value="3%"
-        accentColor={useColorModeValue('#33429a')}
+        accentColor={useColorModeValue('default')}
       >
         {/* Amet minim mollit non deserunt ullamco est sit aliqua dolor. */}
       </LendersStat>
       <LendersStat
         title="Synthetix"
         value="2.5%"
-        accentColor={useColorModeValue('#33429a')}
+        accentColor={useColorModeValue('default')}
       >
       </LendersStat>
       <LendersStat
         title="Maker"
         value="1.8%"
-        accentColor={useColorModeValue('#33429a')}
+        accentColor={useColorModeValue('default')}
       >
       </LendersStat>
     </SimpleGrid>

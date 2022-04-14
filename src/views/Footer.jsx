@@ -52,7 +52,7 @@ export const Footer = () => (
           />
         </ButtonGroup>
       </Stack>
-      <Text fontSize="sm" color="subtle">
+      <Text fontSize="sm" color="border">
         &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
       </Text>
     </Stack>

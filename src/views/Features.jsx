@@ -41,15 +41,6 @@ export const Features = () => {
             >
               Impermanent loss protection
             </Heading>
-            <FeaturesCTAButton
-              background='#1a1a1a'
-              w={{
-                base: 'full',
-                md: 'auto',
-              }}
-            >
-              Read more
-            </FeaturesCTAButton>
           </Stack>
           <SimpleGrid
             columns={{

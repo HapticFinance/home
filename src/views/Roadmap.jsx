@@ -22,6 +22,7 @@ export const Roadmap = () => {
             style={{
               fontSize: '2.5em',
               paddingBottom: '5vh',
+              fontWeight: '500',
             }}
           >Roadmap</h1>
         </Container>
