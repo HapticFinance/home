@@ -49,7 +49,7 @@ import {
                   htmlHeight="576px"
                   w="100%"
                   h="100%"
-                  src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
+                  src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_atom.png"
                   display={{
                     lg:'inherit',
                     sm:'none',

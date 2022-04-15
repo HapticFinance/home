@@ -13,16 +13,16 @@ import {
   export function Header() {
     return (
       <Box 
-        bgImage="https://raw.githubusercontent.com/HapticFinance/assets/main/background.png"
-        bgPosition="left"
-        bgRepeat="no-repeat"
-        bgSize="65%"
         as="section" 
         pt="24" 
         pb="12" 
         overflow="hidden"
       >
         <Box
+          bgImage="https://raw.githubusercontent.com/HapticFinance/assets/main/background.png"
+          bgPosition="left center"
+          bgRepeat="no-repeat"
+          bgSize="65%"
           maxW={{
             base: 'xl',
             md: '7xl',
