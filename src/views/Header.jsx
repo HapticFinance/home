@@ -12,7 +12,16 @@ import {
 
   export function Header() {
     return (
-      <Box as="section" bg={mode('gray.50', 'gray.800')} pt="24" pb="12" overflow="hidden">
+      <Box 
+        bgImage="https://raw.githubusercontent.com/HapticFinance/assets/main/background.png"
+        bgPosition="left"
+        bgRepeat="no-repeat"
+        bgSize="65%"
+        as="section" 
+        pt="24" 
+        pb="12" 
+        overflow="hidden"
+      >
         <Box
           maxW={{
             base: 'xl',
@@ -33,6 +42,14 @@ import {
             justify="space-between"
             mb="20"
           >
+            <Img
+              pos="relative"
+              w="25rem"
+              display={{ 
+                lg:'inherit', 
+                sm:'none',
+              }}
+            />
             <Box
               flex="1"
               maxW={{
@@ -40,10 +57,10 @@ import {
               }}
               pt="6"
             >
-              <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold">
+              <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold" textAlign="right">
                 Bridging decentralized finance
               </Heading>
-              <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl">
+              <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right">
                 Haptic is a protocol designed to increase capital efficiency and reduce the impact of impermanent loss
               </Text>
             </Box>
@@ -51,16 +68,6 @@ import {
               boxSize={{
                 base: '20',
                 lg: '8',
-              }}
-            />
-            <Img
-              pos="relative"
-              w="25rem"
-              src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png"
-              alt="Haptic Logo"
-              display={{ 
-                lg:'inherit', 
-                sm:'none',
               }}
             />
           </Flex>
