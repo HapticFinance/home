@@ -1,5 +1,6 @@
 import {
     Box,
+    Center,
     createIcon,
     Flex,
     Heading,
@@ -9,7 +10,6 @@ import {
     useColorModeValue as mode,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { ContentFeatureLink } from './ContentFeatureLink'
   import { links } from './_contentData'
   
   export const RightArrow = createIcon({
@@ -40,21 +40,22 @@ import {
             <Box
               flex="1"
               maxW={{
-                lg: 'xl',
+                lg: 'md',
               }}
             >
-              <Img
-                htmlWidth="560px"
-                htmlHeight="430px"
-                w="100%"
-                h="100%"
-                objectFit="cover"
-                src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
-                display={{
-                  lg:'inherit',
-                  sm:'none',
-                }}
-              />
+              <Center>
+                <Img
+                  htmlWidth="576px"
+                  htmlHeight="576px"
+                  w="100%"
+                  h="100%"
+                  src="https://raw.githubusercontent.com/HapticFinance/assets/main/covalence.png"
+                  display={{
+                    lg:'inherit',
+                    sm:'none',
+                  }}
+                />
+              </Center>
             </Box>
             <Box
               ms={{
@@ -75,7 +76,7 @@ import {
                   lg: 'unset',
                 }}
               >
-                <Box as="b" color={mode('#33429a')}>
+                <Box as="b" color={mode('default')}>
                   Everything you need to
                 </Box>
                 <Heading mt="4" mb="5" size="2xl" fontWeight="extrabold" lineHeight="1.2">
