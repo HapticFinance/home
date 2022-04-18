@@ -86,7 +86,7 @@ import {
                   Stay tuned for announcements on upcoming Aelin seed round.
                 </Text>
                 <Text color="muted">
-                  Learn more about the <Link href='https://aelin.xyz/'>Aelin</Link> protocol.
+                  <Link href='https://aelin.xyz/' target="_blank">Learn more about the Aelin protocol.</Link>
                 </Text>
               </Stack>
             </Stack>

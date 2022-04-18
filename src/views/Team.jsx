@@ -54,15 +54,6 @@ import {
               >
                 Meet our team
               </Heading>
-              {/* <Text
-                fontSize={{
-                  base: 'lg',
-                  md: 'xl',
-                }}
-                color="muted"
-              >
-                Chupa chups pudding marzipan cake chocolate shortbread macaroon oat cake.
-              </Text> */}
             </Stack>
           </Stack>
           <SimpleGrid
@@ -80,19 +71,16 @@ import {
             {members.map((member) => (
               <Box key={member.name}>
                 <Stack spacing="4">
-                  <Stack
-                    spacing={{
-                      base: '4',
-                      md: '5',
-                    }}
-                  >
+                  <Stack spacing={{base: '4', md: '5',}}>
                     <TeamSquareImage src={member.image} alt={member.name} />
                     <Stack>
                       <Box>
                         <Text fontSize="lg" fontWeight="medium">
                           {member.name}
                         </Text>
-                        <Text color="accent">{member.role}</Text>
+                        <Text color="accent">
+                          {member.role}
+                        </Text>
                       </Box>
                     </Stack>
                   </Stack>
@@ -102,11 +90,6 @@ import {
                         <Icon as={item} boxSize="5" />
                       </Link>
                     ))}
-                    {/* {[FaLinkedin].map((item, id) => (
-                      <Link href={member.linkedin} key={id}>
-                        <Icon as={item} boxSize="5" />
-                      </Link>
-                    ))} */}
                     {[FaGithub].map((item, id) => (
                       <Link href={member.github} key={id}>
                         <Icon as={item} boxSize="5" />
