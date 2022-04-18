@@ -91,10 +91,10 @@ import {
                 }}
               >
                 <Text fontWeight="medium">
-                  Stay tuned for announcements regarding our upcoming Aelin Launch.
+                  Stay tuned for announcements on upcoming Aelin seed round.
                 </Text>
                 <Text color="muted">
-                  Get familiarized with the <Link href='https://aelin.xyz/'>Aelin</Link> protocol.
+                  Learn more about the <Link href='https://aelin.xyz/'>Aelin</Link> protocol.
                 </Text>
               </Stack>
             </Stack>

@@ -1,15 +1,15 @@
 export const links = [
     {
-      label: 'Lending'
+      label: 'Borrower'
     },
     {
-      label: 'AMMs'
+      label: 'Staker'
     },
     {
-      label: 'Options'
+      label: 'Deposit collateral and earn APR by adding liquidity on selected pools with impermanent loss protection'
     },
     {
-      label: 'Perpetuals'
+      label: 'Deposit Haptic network token to earn APR from staking rewards and treasury yields'
     },
   ]
   

@@ -77,27 +77,36 @@ import {
                 }}
               >
                 <Box as="b" color={mode('default')}>
-                  Everything you need to
+                  Built around DeFi composability
                 </Box>
                 <Heading mt="4" mb="5" size="2xl" fontWeight="extrabold" lineHeight="1.2">
-                  Manage your DeFi portfolio
+                  Borrower or Staker?
                 </Heading>
                 <Text fontSize="lg" color={mode('gray.600', 'gray.400')}>
-                Haptic is built around composability principles and leverages existing protocols to achieve its functionality.
+                  
                 </Text>
               </Box>
               <SimpleGrid
                 columns={{
-                  base: 1,
+                  base: 2,
                   md: 2,
                 }}
                 mt="8"
+                style={{maxWidth:"100%"}}
               >
-                {links.map((link) => (
-                  <Flex key={link.label} align="center" minH="14" borderBottomWidth="1px">
-                    <h1 style={{fontWeight:'600'}}>{link.label}</h1>
-                  </Flex>
-                ))}
+                {links.map((link) => {
+                  let style = {fontWeight:'1200'}
+                  if (link.label == "Borrower" || link.label == "Staker") {
+                    style = {fontWeight:'600'}
+                  } 
+                  return (
+                    <Flex key={link.label} align="center" minH="14" borderBottomWidth="1px" style={{marginRight: "20%"}}>
+                      <h1 style={style}>{link.label}</h1>
+                    </Flex>
+                  )
+                })
+
+              }
               </SimpleGrid>
             </Box>
           </Flex>

@@ -61,7 +61,7 @@ import {
                 Bridging decentralized finance
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right">
-                Haptic is a protocol designed to increase capital efficiency and reduce the impact of impermanent loss
+                Haptic is designed to increase capital efficiency and reduce the impact of impermanent loss for liquidity providers.
               </Text>
             </Box>
             <Box
@@ -73,7 +73,7 @@ import {
           </Flex>
           <Box>
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-              Connecting the world of decentralized finance
+              Protocols interacted with:
             </Text>
             <SimpleGrid
               mt="8"
