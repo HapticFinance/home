@@ -112,7 +112,7 @@ import {
                 }}
               />
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg'
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg'
                 style={{
                   minWidth:'10vw',
                   maxWidth:'30vw',
@@ -120,10 +120,15 @@ import {
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
+                maxW={{
+                  base: '8vw',
+                  lg: '20vw',
+                  sm: '4vw',
                 }}
+                // style={{
+                //   minWidth:'10vw',
+                //   maxWidth:'30vw',
+                // }}
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
