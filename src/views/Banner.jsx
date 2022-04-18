@@ -43,14 +43,6 @@ import {
           boxShadow={useColorModeValue('sm', 'sm-dark')}
           borderRadius="xl"
         >
-          <CloseButton
-            display={{
-              md: 'none',
-            }}
-            position="absolute"
-            right="2"
-            top="2"
-          />
           <Stack
             direction={{
               base: 'column',

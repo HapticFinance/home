@@ -21,7 +21,6 @@ import Team from "./views/Team";
 import Lenders from "./views/Lenders";
 import Content from "./views/Content";
 import Newsletter from "./views/Newsletter";
-import FAQ from "./views/FAQ";
 
 export const App = () => {
 
@@ -95,7 +94,6 @@ export const App = () => {
       <Features />
       <Team />
       <Roadmap />
-      {/* <FAQ /> */}
       <Newsletter />
       <Footer />
     </ChakraProvider>
