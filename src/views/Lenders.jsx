@@ -19,14 +19,14 @@ export const Lenders = () => (
   >
     <Stack maxW="xl" spacing="6">
       <Heading size="2xl" fontWeight="extrabold">
-        Access multiple lending rates
+        Highlights
       </Heading>
       <Text
         fontSize="lg"
         fontWeight="medium"
         color={useColorModeValue('gray.600', 'whiteAlpha.700')}
       >
-        Deposit ETH collateral to receive a stablecoin denominated loan from a third party protocol.
+        Does not matter if you are a borrower or a staker, benefit from using Haptic.
       </Text>
     </Stack>
     <SimpleGrid
@@ -41,21 +41,21 @@ export const Lenders = () => (
       }}
     >
       <LendersStat
-        title="Compound"
-        value="3%"
+        title="Impermanent loss protection"
+        value="100%"
         accentColor={useColorModeValue('default')}
       >
         {/* Amet minim mollit non deserunt ullamco est sit aliqua dolor. */}
       </LendersStat>
       <LendersStat
-        title="Synthetix"
-        value="2.5%"
+        title="Staking APR"
+        value="180%"
         accentColor={useColorModeValue('default')}
       >
       </LendersStat>
       <LendersStat
-        title="Maker"
-        value="1.8%"
+        title="Total value locked"
+        value="50M"
         accentColor={useColorModeValue('default')}
       >
       </LendersStat>

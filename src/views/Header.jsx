@@ -61,7 +61,7 @@ import {
                 Bridging decentralized finance
               </Heading>
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right">
-                Haptic is designed to increase capital efficiency and reduce the impact of impermanent loss for liquidity providers.
+                Haptic is designed to increase capital efficiency and reduce impermanent loss across automated market makers.
               </Text>
             </Box>
             <Box
