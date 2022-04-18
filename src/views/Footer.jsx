@@ -29,24 +29,28 @@ export const Footer = () => (
           <IconButton
             as="a"
             href="https://twitter.com/hapticfinance"
+            target="_blank" 
             aria-label="Twitter"
             icon={<FaTwitter fontSize="1.25rem" />}
           />
           <IconButton 
             as="a" 
             href="https://discord.gg/ahJVRvjyzk" 
+            target="_blank" 
             aria-label="Discord" 
             icon={<FaDiscord fontSize="1.25rem" />} 
           />
           <IconButton
             as="a"
             href="https://medium.com/@hapticfinance"
+            target="_blank" 
             aria-label="Medium"
             icon={<FaMedium fontSize="1.25rem" />}
           />
           <IconButton 
             as="a" 
-            href="https://github.com/HapticFinance" 
+            href="https://github.com/HapticFinance"
+            target="_blank" 
             aria-label="GitHub" 
             icon={<FaGithub fontSize="1.25rem" />} 
           />

@@ -11,6 +11,8 @@ import {
   import * as React from 'react'
   import { FiMenu } from 'react-icons/fi'
   import { NavbarLogo } from './NavbarLogo'
+  import { FaGithub, FaDiscord, FaMedium, FaTwitter } from 'react-icons/fa'
+
   
   export const Navbar = () => {
     const isDesktop = useBreakpointValue({
@@ -40,9 +42,36 @@ import {
               {isDesktop ? (
                 <HStack spacing="10">
                   <ButtonGroup variant="link" spacing="8">
-                    {['Twitter', 'Medium', 'Discord', 'Github'].map((item) => (
-                      <Button key={item}>{item}</Button>
-                    ))}
+                  <ButtonGroup variant="ghost">
+          <IconButton
+            as="a"
+            href="https://twitter.com/hapticfinance"
+            target="_blank" 
+            aria-label="Twitter"
+            icon={<FaTwitter fontSize="1.25rem" />}
+          />
+          <IconButton 
+            as="a" 
+            href="https://discord.gg/ahJVRvjyzk" 
+            target="_blank" 
+            aria-label="Discord" 
+            icon={<FaDiscord fontSize="1.25rem" />} 
+          />
+          <IconButton
+            as="a"
+            href="https://medium.com/@hapticfinance"
+            target="_blank" 
+            aria-label="Medium"
+            icon={<FaMedium fontSize="1.25rem" />}
+          />
+          <IconButton 
+            as="a" 
+            href="https://github.com/HapticFinance"
+            target="_blank" 
+            aria-label="GitHub" 
+            icon={<FaGithub fontSize="1.25rem" />} 
+          />
+        </ButtonGroup>
                   </ButtonGroup>
                   <Box>
                     <Button 
