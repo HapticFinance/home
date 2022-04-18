@@ -38,6 +38,9 @@ export const Roadmap = () => {
               key={id}
               title={step.title}
               description={step.description}
+              description2={step.description2}
+              description3={step.description3}
+
               isCompleted={currentStep > id}
               isFirstStep={id === 0}
               isLastStep={steps.length === id}

@@ -6,10 +6,10 @@ export const links = [
       label: 'Staker'
     },
     {
-      label: 'Deposit collateral and earn APR by adding liquidity on selected pools with impermanent loss protection'
+      label: 'Become a liquidity provider for selected pools without selling your principal and benefit from impermanent loss protection'
     },
     {
-      label: 'Deposit Haptic network token to earn APR from staking rewards and treasury yields'
+      label: 'Deposit Haptic network token to earn APR from staking rewards and treasury yields from protocol owned liquidity'
     },
   ]
   

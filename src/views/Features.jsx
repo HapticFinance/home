@@ -73,7 +73,7 @@ export const Features = () => {
             </Feature>
             <Feature title="Gas & Fees">
               <p>- Native on Optimism</p>
-              <p>- Cheap and fast transaction</p>
+              <p>- Cheap and fast transactions</p>
               <p>- Low protocol fees (0.3%)</p>
             </Feature>
           </SimpleGrid>

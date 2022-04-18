@@ -3,7 +3,7 @@ import * as React from 'react'
 import { RoadmapStepCircle } from './RoadmapStepCircle'
 
 export const RoadmapStep = (props) => {
-  const { isActive, isCompleted, isLastStep, isFirstStep, title, description, ...stackProps } =
+  const { isActive, isCompleted, isLastStep, isFirstStep, title, description, description2,description3, ...stackProps } =
     props
   const isMobile = useBreakpointValue({
     base: true,
@@ -59,6 +59,9 @@ export const RoadmapStep = (props) => {
           {title}
         </Text>
         <Text color="muted">{description}</Text>
+        <Text color="muted">{description2}</Text>
+        <Text color="muted">{description3}</Text>
+
       </Stack>
     </Stack>
   )

@@ -77,7 +77,7 @@ import {
                 }}
               >
                 <Box as="b" color={mode('default')}>
-                  Built around DeFi composability
+                  Built around composability
                 </Box>
                 <Heading mt="4" mb="5" size="2xl" fontWeight="extrabold" lineHeight="1.2">
                   Borrower or Staker?

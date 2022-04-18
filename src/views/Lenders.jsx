@@ -54,8 +54,8 @@ export const Lenders = () => (
       >
       </LendersStat>
       <LendersStat
-        title="Total value locked"
-        value="50M"
+        title="Protocol fees"
+        value="0.3%"
         accentColor={useColorModeValue('default')}
       >
       </LendersStat>

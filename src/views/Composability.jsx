@@ -44,10 +44,10 @@ export const Composability = () => {
         >
           <Box>
             <Heading size="3xl" letterSpacing="tight" fontWeight="extrabold">
-              Build SaaS with ease!
+              Ease of access
             </Heading>
             <Text mt="6" mb="8" fontSize="lg" fontWeight="medium">
-              At volutpat diam ut venenatis tellus. Sit amet consectetur.
+              Haptic is your interface to DeFi.
             </Text>
           </Box>
           <Box>
@@ -68,11 +68,10 @@ export const Composability = () => {
                 lg: 'unset',
               }}
             >
-              <Feature title="Powered by Chakra">
-                At volutpat diam ut venenatis tellus. Sit amet consectetur adipiscing elit duis.
-                Quis hendrerit dolor magna eget est.
+              <Feature title="Keep your principal">
+                 Become a liquidity provider for selected pairs, without having to sell your ETH principal and benefit from impermanent loss protection
               </Feature>
-              <Feature title="Zero downtime">
+              <Feature title="Earn ">
                 Vestibulum sed arcu non odio euismod. Tristique senectus et netus et malesuada fames
                 ac turpis mako.
               </Feature>
