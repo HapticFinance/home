@@ -6,23 +6,23 @@ export const steps = [
       description3: 'Seed Round on Aelin.xyz',
     },
     {
-      title: 'Q3',
+      title: 'Q3 2022',
       description: 'Protocol development',
       description2: 'Frontend development',
       description3: 'DAO formation',
     },
     {
-      title: 'Beta',
+      title: 'Q4 2022',
       description: 'Testnet launch',
       description2: '',
     },
     {
-      title: 'Security',
+      title: 'Q1 2023',
       description: 'Contract code audit',
       description2: 'Smart contracts and frontend',
     },
     {
-      title: 'Optimism',
+      title: 'Q2 2023',
       description: 'Mainnet Launch',
     },
   ]
