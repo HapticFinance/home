@@ -40,7 +40,7 @@ export const Composability = () => {
             base: '1fr',
             md: '360px 1fr',
           }}
-          gap="64px"
+          // gap="64px"
         >
           <Box>
             <Heading size="3xl" letterSpacing="tight" fontWeight="extrabold">

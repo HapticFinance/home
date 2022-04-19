@@ -22,9 +22,9 @@ export const FeaturesCTAButton = (props) => {
       _active={{
         transform: 'translateY(2px)',
       }}
-      _hover={{
-        bg: 'blue.700',
-      }}
+      // _hover={{
+      //   bg: 'blue.700',
+      // }}
       {...rest}
     >
       {children}
