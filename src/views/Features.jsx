@@ -59,7 +59,6 @@ export const Features = () => {
             }}
           >
             <Feature title="Borrowers">
-               <p>- Variable collateralization ratio</p>
                <p>- Impermanent loss protection</p>
                <p>- Ample choice of pools</p>
                <p>- NFT perks</p>
