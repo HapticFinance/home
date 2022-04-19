@@ -57,7 +57,7 @@ import {
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold" textAlign="right">
                 Bridging decentralized finance
               </Heading>
-              <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right" maxW={{ lg: 'xl'}}>
+              <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right" maxW={{ lg: 'xl'}} marginLeft={"25%"}>
                 Haptic is designed to increase capital efficiency and reduce impermanent loss across automated market makers.
               </Text>
             </Box>
