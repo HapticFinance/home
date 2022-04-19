@@ -1,4 +1,4 @@
-import { Box, Heading, SimpleGrid, Stack } from '@chakra-ui/react'
+import { Box, Heading, SimpleGrid, Link, Stack } from '@chakra-ui/react'
 import * as React from 'react'
 import { FeaturesCTAButton } from './FeaturesCTAButton'
 import { Feature } from './Feature'
@@ -41,6 +41,18 @@ export const Features = () => {
             >
                A hub for DeFi
             </Heading>
+            <Link href='https://docs.haptic.finance/' target="_blank">
+              <FeaturesCTAButton
+                background='#e1e1e1'
+                color='#1a1a1a'
+                w={{
+                  base: 'full',
+                  md: 'auto',
+                }}
+              >
+                docs
+              </FeaturesCTAButton>
+            </Link>
           </Stack>
           <SimpleGrid
             columns={{
@@ -69,7 +81,6 @@ export const Features = () => {
                 <p>- Extra treasury yields</p>
                 <p>- Opt-in automatic hedging</p>
                 <p>- Tokenized debt asset</p>
-
             </Feature>
             <Feature title="Gas & Fees">
               <p>- Native on Optimism</p>

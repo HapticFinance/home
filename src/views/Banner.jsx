@@ -104,13 +104,15 @@ import {
                 md: 'center',
               }}
             >
-              <Button 
-                bg="linear-gradient(-45deg, #4e339a,#33429a)"
-                color="white"
-                isFullWidth
-              >
-                Read more
-              </Button>
+              <Link href="https://aelin.xyz" target="_blank">
+                <Button 
+                  bg="linear-gradient(-45deg, #4e339a,#33429a)"
+                  color="white"
+                  isFullWidth
+                >
+                  Read more
+                </Button>
+              </Link>
             </Stack>
           </Stack>
         </Box>
