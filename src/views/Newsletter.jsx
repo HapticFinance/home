@@ -14,7 +14,14 @@ import {
   import React, {useState} from 'react'
 
   export const Newsletter = () => {
-    const [emailAddress, setEmailAddress] = useState("");
+    let stateObj =  {
+      buttonDisabled: true,
+      message: { fromEmail: "" },
+      submitting: false,
+    } 
+    const functionURL = "https://lion-barracuda-2686.twil.io/send-email"
+
+    const [stateFulData, setStateFulData] = useState(stateObj);
     
     function validateEmail(email)  {
       return String(email)
@@ -25,19 +32,71 @@ import {
     }; 
 
 
-    async function subscribe(event) {
-      if (validateEmail(emailAddress)) {
-        setEmailAddress(emailAddress);
-        console.log(`email is ${emailAddress}`);
+    function sleep (ms)  {
+      return new Promise(resolve => setTimeout(resolve, ms));
+     }
 
+    async function onClick(event) {
+      event.preventDefault()
+      setStateFulData({ ...stateFulData, submitting: true })
+
+      let { fromEmail, address, body } = stateFulData.message
+  
+      const isEmail = validateEmail(fromEmail)
+
+      console.log(`isEmail ${fromEmail} ${isEmail}`)
+  
+      if (isEmail === null) {
+        let obj = {
+          ...stateFulData,
+        }
+        obj.submitting = false
+        obj.success = false
+        obj.error = "Invalid email address"
+        setStateFulData(obj)
+        return
+      }
+  
+      let subject = "Subscribe to Haptic mailing list";
+      body = `I want to be subscribed to the Haptic mailing list, email ${fromEmail}`
+  
+      await sleep(1500)
+  
+      const response = await fetch(functionURL, {
+        method: "post",
+        headers: {
+          "Content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        },
+        body: new URLSearchParams({ fromEmail }).toString(),
+      })
+       
+      if (response.status === 200) {
+        this.setState({
+          error: null,
+          submitting: false,
+          success: true,
+          message: {
+            fromEmail: "",
+            subject: "",
+            body: "",
+          },
+        })
       } else {
-        console.log("invalid input")
+        const json = await response.json()
+        this.setState({
+          error: json.error,
+          submitting: false,
+        })
       }
     }
+ 
 
-    async function validateEmail(event) {
-      let value = event.target.value;
-
+    async function onChange(event) {
+      let obj = {
+        ...stateFulData,
+      }
+      obj.message.fromEmail = event.target.value
+      setStateFulData(obj)
     }
 
     return (
@@ -110,11 +169,19 @@ import {
                 }}
               >
                 <FormControl>
-                  <Input type="email" size="lg" placeholder="Enter your email" onChange={validateEmail}/>
-                  <FormHelperText color="subtle">We send you at most one mail per month</FormHelperText>
+                  <Input type="email"            
+                    name="fromEmail"
+                    id="fromEmail"
+                    value={stateFulData.message.fromEmail} 
+                    size="lg" 
+                    placeholder="Enter your email" 
+                    color={"black"} 
+                    onChange={onChange}
+                  />
+                    <FormHelperText color="subtle">We send you at most one mail per month</FormHelperText>
                 </FormControl>
-                <Button variant="primary" size="lg" onClick={subscribe}>
-                  Subscribe
+                <Button variant="primary" size="lg" onClick={onClick}  disabled={stateFulData.submitting}>
+                  {stateFulData.submitting === true ? "Sending..." : stateFulData.success === true ? "Done" : "Subscribe"}
                 </Button>
               </Stack>
             </Stack>
@@ -122,8 +189,5 @@ import {
         </Container>
       </Box>
     )
-  }
-
-console.log()
-
+  } 
   export default Newsletter;
