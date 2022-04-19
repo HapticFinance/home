@@ -70,7 +70,7 @@ import {
           </Flex>
           <Box>
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-              Protocols interacted with:
+              Interacts with:
             </Text>
             <SimpleGrid
               mt="8"
