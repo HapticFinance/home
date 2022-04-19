@@ -31,7 +31,7 @@ export const steps = [
       description:  'More EVM chains',
       description2: 'Cross-chain infrastructure',
       description3: 'Beyond impermanent loss',
-      description4: 'Synthetic assets',
+      description4: 'Algorithmic assets',
     },
   ]
   
