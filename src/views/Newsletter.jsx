@@ -147,7 +147,7 @@ import {
                     md: 'md',
                   })}
                 >
-                  Be the first to know
+                  Keep up with Haptic
                 </Heading>
                 <Text
                   fontSize={{
@@ -156,7 +156,7 @@ import {
                   }}
                   color="subtle"
                 >
-                  Stay tuned for protocol announcements
+                  Subscribe to receive early announcements
                 </Text>
               </Stack>
               <Stack
@@ -181,7 +181,7 @@ import {
                     color={"black"} 
                     onChange={onChange}
                   />
-                    <FormHelperText color="subtle">We send you at most one mail per month</FormHelperText>
+                    <FormHelperText color="subtle">We won't sell your information</FormHelperText>
                 </FormControl>
                 <Button variant="primary" size="lg" onClick={OnClick}  disabled={stateFulData.submitting}>
                   {stateFulData.submitting === true ? "Sending..." : stateFulData.success === true ? "Done" : "Subscribe"}

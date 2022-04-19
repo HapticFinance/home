@@ -40,6 +40,7 @@ export const Roadmap = () => {
               description={step.description}
               description2={step.description2}
               description3={step.description3}
+              description4={step.description4}
 
               isCompleted={currentStep > id}
               isFirstStep={id === 0}
