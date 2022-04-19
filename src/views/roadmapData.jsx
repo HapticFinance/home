@@ -1,29 +1,37 @@
 export const steps = [
     {
+      title: 'Q1 2022',
+      description:    'Protocol design',
+      description2:   'Community building',
+      description3:   'Brand positioning',
+    },
+    {
       title: 'Q2 2022',
-      description:  'Protocol design',
-      description2:  'Community building',
-      description3: 'Seed Round on Aelin.xyz',
+      description:  'Seed Round on Aelin.xyz',
+      description2: 'Protocol development',
+      description3: 'DAO Formation',
+      description4: 'Testnet (Ethereum & OVM)',
     },
     {
       title: 'Q3 2022',
-      description: 'Protocol development',
-      description2: 'Frontend development',
-      description3: 'DAO formation',
+      description:  'Product development',
+      description2: 'Security Audit',
+      description3: 'Mainnet (Ethereum & OVM)',
+      description4: 'Partnerships',
+
     },
-    {
+    { 
       title: 'Q4 2022',
-      description: 'Testnet launch',
-      description2: '',
+      description:  'DeFi integrations',
+      description2: 'Interoperability',
+      description3: 'Automatic hedging',
     },
     {
       title: 'Q1 2023',
-      description: 'Contract code audit',
-      description2: 'Smart contracts and frontend',
-    },
-    {
-      title: 'Q2 2023',
-      description: 'Mainnet Launch',
+      description:  'More EVM chains',
+      description2: 'Cross-chain infrastructure',
+      description3: 'Beyond impermanent loss',
+      description4: 'Synthetic assets',
     },
   ]
   
