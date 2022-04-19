@@ -71,7 +71,7 @@ import {
       })
        
       if (response.status === 200) {
-        this.setState({
+        /*this.setState({
           error: null,
           submitting: false,
           success: true,
@@ -80,13 +80,14 @@ import {
             subject: "",
             body: "",
           },
-        })
+        })*/
       } else {
         const json = await response.json()
-        this.setState({
+        console.log(json)
+        /*this.setState({
           error: json.error,
           submitting: false,
-        })
+        })*/
       }
     }
  
