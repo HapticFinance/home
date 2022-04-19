@@ -26,7 +26,7 @@ export const Lenders = () => (
         fontWeight="medium"
         color={useColorModeValue('gray.600', 'whiteAlpha.700')}
       >
-        Does not matter if you are a borrower or a staker, benefit from using Haptic.
+          
       </Text>
     </Stack>
     <SimpleGrid

@@ -30,16 +30,7 @@ import {
           }}
         >
           <Stack spacing="3">
-            <Text
-              fontSize={{
-                base: 'sm',
-                md: 'md',
-              }}
-              color="accent"
-              fontWeight="semibold"
-            >
-              Team
-            </Text>
+        
             <Stack
               spacing={{
                 base: '4',
