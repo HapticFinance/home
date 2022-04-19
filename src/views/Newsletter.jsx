@@ -9,9 +9,11 @@ import {
     Stack,
     Text,
     useBreakpointValue,
-    useColorModeValue,
+    useColorModeValue
   } from '@chakra-ui/react'
   import React, {useState} from 'react'
+  import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
   export const Newsletter = () => {
     let stateObj =  {
@@ -36,7 +38,7 @@ import {
       return new Promise(resolve => setTimeout(resolve, ms));
      }
 
-    async function onClick(event) {
+    async function OnClick(event) {
       event.preventDefault()
       setStateFulData({ ...stateFulData, submitting: true })
 
@@ -71,23 +73,23 @@ import {
       })
        
       if (response.status === 200) {
-        /*this.setState({
-          error: null,
-          submitting: false,
-          success: true,
-          message: {
-            fromEmail: "",
-            subject: "",
-            body: "",
-          },
-        })*/
+        setStateFulData({ 
+          ...stateFulData, 
+          error: null, 
+          submitting: false, 
+          success: true 
+        })
+
+        toast("Success!");
       } else {
-        const json = await response.json()
-        console.log(json)
-        /*this.setState({
-          error: json.error,
-          submitting: false,
-        })*/
+          const json = await response.json()
+          setStateFulData({ 
+            ...stateFulData, 
+            error: json.error, 
+            submitting: false, 
+            success: false
+          })
+          toast(json.error);
       }
     }
  
@@ -181,12 +183,14 @@ import {
                   />
                     <FormHelperText color="subtle">We send you at most one mail per month</FormHelperText>
                 </FormControl>
-                <Button variant="primary" size="lg" onClick={onClick}  disabled={stateFulData.submitting}>
+                <Button variant="primary" size="lg" onClick={OnClick}  disabled={stateFulData.submitting}>
                   {stateFulData.submitting === true ? "Sending..." : stateFulData.success === true ? "Done" : "Subscribe"}
                 </Button>
               </Stack>
             </Stack>
           </Box>
+          <ToastContainer />
+
         </Container>
       </Box>
     )
