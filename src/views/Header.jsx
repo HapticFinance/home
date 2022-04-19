@@ -52,9 +52,6 @@ import {
             />
             <Box
               flex="1"
-              maxW={{
-                lg: 'xl',
-              }}
               pt="6"
             >
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold" textAlign="right">
