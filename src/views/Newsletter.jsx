@@ -33,11 +33,6 @@ import {
         );
     }; 
 
-
-    function sleep (ms)  {
-      return new Promise(resolve => setTimeout(resolve, ms));
-     }
-
     async function OnClick(event) {
       event.preventDefault()
       setStateFulData({ ...stateFulData, submitting: true })
@@ -61,9 +56,7 @@ import {
   
       let subject = "Subscribe to Haptic mailing list";
       body = `I want to be subscribed to the Haptic mailing list, email ${fromEmail}`
-  
-      await sleep(1500)
-  
+    
       const response = await fetch(functionURL, {
         method: "post",
         headers: {
