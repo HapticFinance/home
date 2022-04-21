@@ -5,8 +5,8 @@ import { Feature } from './Feature'
 
 export const Features = () => {
   return (
-    <Box as="section" pb="24">
-      <Box bg="linear-gradient(-45deg, #4e339a,#33429a)" color="white" pt="24" pb="12rem">
+    <Box as="section" pb="14">
+      <Box bg="linear-gradient(-45deg, #4e339a,#33429a)" color="white" pt="14" pb="8rem">
         <Box
           maxW={{
             base: 'xl',
@@ -41,7 +41,7 @@ export const Features = () => {
             >
                A hub for DeFi
             </Heading>
-            <Link href='https://docs.haptic.finance/' target="_blank">
+            {/* <Link href='https://docs.haptic.finance/' target="_blank">
               <FeaturesCTAButton
                 background='#e1e1e1'
                 color='#1a1a1a'
@@ -52,7 +52,7 @@ export const Features = () => {
               >
                 docs
               </FeaturesCTAButton>
-            </Link>
+            </Link> */}
           </Stack>
           <SimpleGrid
             columns={{

@@ -57,25 +57,25 @@ return (
               as="section"
               py={{
                 base: '4',
-                md: '8',
+                md: '2',
+              }}
+              textAlign="center"
+              px={{
+                base: '8',
+                md: '15%',
+                sm: '0',
               }}
             >
-              <Container>
-                <SimpleGrid
-                  columns={{
-                    base: 1,
-                    md: 3,
-                  }}
-                  gap={{
-                    base: '5',
-                    md: '6',
-                  }}
-                >
-                  {stats.map(({ label, value }) => (
-                    <Stat key={label} label={label} value={value} />
-                  ))}
-                </SimpleGrid>
-              </Container>
+              <SimpleGrid
+                gap={{
+                  base: '4',
+                  md: '4',
+                }}
+              >
+                {stats.map(({ label, value }) => (
+                  <Stat key={label} label={label} value={value} />
+                ))}
+              </SimpleGrid>
             </Box>
           </Flex>
         </Box>

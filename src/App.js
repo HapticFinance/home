@@ -19,6 +19,7 @@ import Roadmap from "./views/Roadmap";
 import Footer from "./views/Footer";
 import Team from "./views/Team";
 import Lenders from "./views/Lenders";
+import CTA from './views/CTA';
 import Content from "./views/Content";
 import Composability from "./views/Composability";
 import Newsletter from "./views/Newsletter";
@@ -92,8 +93,9 @@ export const App = () => {
       <Banner />
       <Content />
       <Lenders />
-      <Composability />
       <Features />
+      <Composability />
+      <CTA />
       <Team />
       <Roadmap />
       <Newsletter />
