@@ -86,7 +86,7 @@ import {
                   Stay tuned for announcements on upcoming Aelin seed round.
                 </Text>
                 <Text color="muted">
-                  <Link href='https://aelin.xyz/' target="_blank">Learn more about the Aelin protocol.</Link>
+                  <Link href='https://docs.haptic.finance/aelin/' target="_blank">Learn more about the Aelin protocol.</Link>
                 </Text>
               </Stack>
             </Stack>
@@ -104,7 +104,7 @@ import {
                 md: 'center',
               }}
             >
-              <Link href="https://aelin.xyz" target="_blank">
+              <Link href="https://docs.haptic.finance/aelin/" target="_blank">
                 <Button 
                   bg="linear-gradient(-45deg, #4e339a,#33429a)"
                   color="white"
