@@ -28,10 +28,10 @@ export const CTA = () => (
               md: 'md',
             })}
           >
-            Documentation
+            Go to docs
           </Heading>
           <Text color="on-accent-muteed" maxW="2xl" textAlign="center" fontSize="xl">
-            Get more information regarding the protocol benefits and infrastructure in our docs.
+            Learn our Haptic works under the hood
           </Text>
         </Stack>
         <Stack
