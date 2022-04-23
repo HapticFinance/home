@@ -6,11 +6,73 @@ import {
     Img,
     SimpleGrid,
     Text,
+    Stat,
+    StatLabel,
+    StatNumber,
+    StatHelpText,
+    StatArrow,
+    StatGroup,
     useColorModeValue as mode,
   } from '@chakra-ui/react'
-  import * as React from 'react'
+  import React, { useEffect, useState } from "react";
+  
+  const calculateTimeLeft = () => {
+    
+      let year = new Date().getFullYear();
+      let difference = +new Date(`05/07/${year}`) - +new Date();
+      let timeLeft = {};
+    
+      if (difference > 0) {
+        timeLeft = {
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60)
+        };
+      }
+    
+      return timeLeft;
+  }
 
   export function Header() {
+
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+    const [year] = useState(new Date().getFullYear());
+
+      useEffect(() => {
+        const timer = setTimeout(() => {
+          setTimeLeft(calculateTimeLeft());
+        }, 1000);
+      });
+
+      const timerComponents = [];
+
+      Object.keys(timeLeft).forEach((interval) => {
+        if (!timeLeft[interval]) {
+          return;
+        }
+        let intervalLabel = interval == "minutes" ? "min" : interval == "seconds" ? "sec" : interval;
+        timerComponents.push(
+          <span>
+            {timeLeft[interval]} {intervalLabel}{" "}
+          </span>
+        );
+      });
+      
+      const CountDown = () => {
+        return (
+          <>
+            <Stat>
+              <StatLabel><h1 style={{fontSize:"19px"}}>Time left to seed round on Aelin</h1></StatLabel>
+              <StatNumber style={{marginTop:"10px"}}>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</StatNumber>
+              <StatHelpText style={{fontSize:"16px", marginTop:"10px"}}>Sale happening from May 7 to May 21</StatHelpText>
+            </Stat>
+            <br />
+            <br />
+          </>
+        );
+      }
+
     return (
       <Box 
         as="section" 
@@ -69,6 +131,7 @@ import {
             />
           </Flex>
           <Box>
+            {/*<CountDown year={year} timerComponents={timerComponents} />*/}
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
               Interacts with:
             </Text>

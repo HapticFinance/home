@@ -12,8 +12,18 @@ import {
     useColorModeValue
   } from '@chakra-ui/react'
   import React, {useState} from 'react'
+  import styled from 'styled-components';
+
   import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+
+  const StyledContainer = styled(ToastContainer)`
+  // https://styled-components.com/docs/faqs#how-can-i-override-styles-with-higher-specificity
+  &&&.Toastify__toast-container {}
+  .Toastify__toast {}
+  .Toastify__toast-body {}
+  .Toastify__progress-bar {}
+`;
 
   export const Newsletter = () => {
     let stateObj =  {
@@ -197,7 +207,7 @@ import {
               </Stack>
             </Stack>
           </Box>
-          <ToastContainer />
+          <StyledContainer />
 
         </Container>
       </Box>
