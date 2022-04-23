@@ -70,16 +70,21 @@ export const Features = () => {
               md: '20',
             }}
           >
+            <Feature title="Protocol">
+              <p>- Censorship resistant</p>
+              <p>- Trustless</p>
+              <p>- Based on composability</p>
+            </Feature>
             <Feature title="Borrowers">
-               <p>- Impermanent loss protection</p>
-               <p>- Ample choice of pools</p>
-               <p>- NFT perks</p>
+              <p>- Impermanent loss protection</p>
+              <p>- Ample choice of pools</p>
+              <p>- NFT perks</p>
             </Feature>
             <Feature title="Stakers">
-                <p>- Up to 180% staking APR</p>
-                <p>- Extra treasury yields</p>
-                <p>- Opt-in automatic hedging</p>
-                <p>- Tokenized debt asset</p>
+              <p>- Up to 180% staking APR</p>
+              <p>- Extra treasury yields</p>
+              <p>- Opt-in automatic hedging</p>
+              <p>- Tokenized debt asset</p>
             </Feature>
             <Feature title="Gas & Fees">
               <p>- Native on Optimism</p>

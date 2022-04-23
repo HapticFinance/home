@@ -30,7 +30,6 @@ import {
           }}
         >
           <Stack spacing="3">
-        
             <Stack
               spacing={{
                 base: '4',
@@ -78,12 +77,12 @@ import {
                   <HStack spacing="4" color="subtle">
                     {[FaTwitter].map((item, id) => (
                       <Link href={member.twitter} key={id}>
-                        <Icon as={item} boxSize="5" />
+                        <Icon as={item} boxSize="5" color="#47389a" />
                       </Link>
                     ))}
                     {[FaGithub].map((item, id) => (
                       <Link href={member.github} key={id}>
-                        <Icon as={item} boxSize="5" />
+                        <Icon as={item} boxSize="5" color="#47389a" />
                       </Link>
                     ))}
                   </HStack>

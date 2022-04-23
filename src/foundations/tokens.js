@@ -52,7 +52,7 @@ export default {
       default: 'red.600',
       _dark: 'red.200',
     },
-    'bg-accent': 'brand.600',
+    'bg-accent': 'linear-gradient(-45deg, #4e339a,#33429a)',
     'bg-accent-subtle': 'brand.500',
     'bg-accent-muted': 'brand.400',
     'on-accent': 'white',
