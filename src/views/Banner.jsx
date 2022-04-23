@@ -106,9 +106,19 @@ import {
             >
               <Link href="https://docs.haptic.finance/aelin/" target="_blank">
                 <Button 
-                  bg="linear-gradient(-45deg, #4e339a,#33429a)"
+                  bg="linear-gradient(-45deg, #4e339a, #33429a)"
                   color="white"
                   isFullWidth
+                  _hover={{
+                    background: 'linear-gradient(-45deg, #4e339a, #33429a)',
+                    opacity: '0.75',
+                    color: 'white',
+                  }}
+                  _active={{
+                    background: 'linear-gradient(-45deg, #4e339a, #33429a)',
+                    opacity: '0.75',
+                    color: 'white',
+                  }}
                 >
                   Read more
                 </Button>

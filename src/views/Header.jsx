@@ -88,13 +88,6 @@ import {
               fontSize="2xl"
             >
               <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/ethereum.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
-              <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg'
                 style={{
                   minWidth:'10vw',
@@ -110,6 +103,13 @@ import {
               />
               <img 
                 src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg'
+                style={{
+                  minWidth:'10vw',
+                  maxWidth:'30vw',
+                }}
+              />
+              <img 
+                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg'
                 style={{
                   minWidth:'10vw',
                   maxWidth:'30vw',

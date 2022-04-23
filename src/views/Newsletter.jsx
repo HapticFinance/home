@@ -164,19 +164,34 @@ import {
                   xl: 'lg',
                 }}
               >
-                <FormControl>
-                  <Input type="email"            
-                    name="fromEmail"
-                    id="fromEmail"
-                    value={stateFulData.message.fromEmail} 
-                    size="lg" 
-                    placeholder="Enter your email" 
-                    color={"black"} 
-                    onChange={onChange}
-                  />
-                    <FormHelperText color="subtle">We won't sell your information</FormHelperText>
-                </FormControl>
-                <Button variant="primary" size="lg" onClick={OnClick}  disabled={stateFulData.submitting}>
+              <FormControl>
+                <Input type="email"            
+                  name="fromEmail"
+                  id="fromEmail"
+                  value={stateFulData.message.fromEmail} 
+                  size="lg" 
+                  placeholder="Enter your email" 
+                  color={"black"} 
+                  onChange={onChange}
+                />
+                <FormHelperText color="subtle">
+                  We won't sell your information
+                </FormHelperText>
+              </FormControl>
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  onClick={OnClick}  
+                  disabled={stateFulData.submitting}
+                  _hover={{
+                    background: 'white',
+                    color: '#33429a',
+                  }}
+                  _active={{
+                    background: 'white !important',
+                    color: '#33429a',
+                  }}
+                >
                   {stateFulData.submitting === true ? "Sending..." : stateFulData.success === true ? "Done" : "Subscribe"}
                 </Button>
               </Stack>

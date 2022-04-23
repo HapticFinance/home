@@ -43,7 +43,18 @@ export const CTA = () => (
           justify="center"
         >
           <Link href="https://docs.haptic.finance/" target="_blank">
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              _hover={{
+                background: 'white',
+                color: '#33429a',
+              }}
+              _active={{
+                background: 'white !important',
+                color: '#33429a',
+              }}
+            >
               Read more
             </Button>
           </Link>
