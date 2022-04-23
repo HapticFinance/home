@@ -21,7 +21,6 @@ const stats = [
 export const Lenders = () => {
 
 return (
-  !isMobile ? 
       <Box as="section" py="24">
         <Box
           maxW={{
@@ -80,11 +79,6 @@ return (
           </Flex>
         </Box>
       </Box>
-      : 
-    <>
-      {"Not implemented"}
-    </>
-
 )
 
 }
