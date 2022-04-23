@@ -1,8 +1,7 @@
-//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import '@fontsource/inter/variable.css'
-  
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 import * as components from "./components";
 import * as foundations from './foundations';
 
@@ -10,19 +9,8 @@ import * as foundations from './foundations';
 // 1. Import the utilities
 import { createBreakpoints } from '@chakra-ui/theme-tools'
 
-// 1.1 Import Views
-import NavBar from "./views/Navbar";
-import Header from "./views/Header";
-import Features from "./views/Features"
-import Banner from "./views/Banner";
-import Roadmap from "./views/Roadmap";
-import Footer from "./views/Footer";
-import Team from "./views/Team";
-import Lenders from "./views/Lenders";
-import CTA from './views/CTA';
-import Content from "./views/Content";
-import Composability from "./views/Composability";
-import Newsletter from "./views/Newsletter";
+//Import pages
+import Home from './views/Home';
 
 export const App = () => {
 
@@ -87,19 +75,19 @@ export const App = () => {
     },
   })
   return (
+
+
     <ChakraProvider theme={myTheme}>
-      <NavBar />
-      <Header />
-      <Banner />
-      <Content />
-      <Lenders />
-      <Features />
-      <Composability />
-      <CTA />
-      <Team />
-      <Roadmap />
-      <Newsletter />
-      <Footer />
+
+        <Router>
+          <Routes>
+
+            <Route path='/' element={<Home/>} />
+
+         
+          </Routes>
+        </Router>
+
     </ChakraProvider>
   )
 }
