@@ -150,53 +150,12 @@ import {
               }}
               fontSize="2xl"
             >
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg'
-                maxW={{
-                  base: '8vw',
-                  lg: '20vw',
-                  sm: '4vw',
-                }}
-                // style={{
-                //   minWidth:'10vw',
-                //   maxWidth:'30vw',
-                // }}
-              />
-              <img 
-                src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg'
-                style={{
-                  minWidth:'10vw',
-                  maxWidth:'30vw',
-                }}
-              />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg' minW='10vw' maxW='30vw' />
             </SimpleGrid>
           </Box>
         </Box>

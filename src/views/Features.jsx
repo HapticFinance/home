@@ -71,8 +71,8 @@ export const Features = () => {
             }}
           >
             <Feature title="Protocol">
-              <p>- Uncensorable</p>
-              <p>- Trsustless</p>
+              <p>- Censorship resistant</p>
+              <p>- Trustless</p>
               <p>- Based on composability</p>
             </Feature>
             <Feature title="Borrowers">
