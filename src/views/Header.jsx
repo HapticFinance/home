@@ -19,7 +19,7 @@ import {
   const calculateTimeLeft = () => {
     
       let year = new Date().getFullYear();
-      let difference = +new Date(`05/07/${year}`) - +new Date();
+      let difference = +new Date(`05/09/${year}`) - +new Date();
       let timeLeft = {};
     
       if (difference > 0) {
@@ -131,7 +131,7 @@ import {
             />
           </Flex>
           <Box>
-            {/*<CountDown year={year} timerComponents={timerComponents} />*/}
+            {/* <CountDown /> */}
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
               Interacts with:
             </Text>
