@@ -1,6 +1,6 @@
 import { chakra } from '@chakra-ui/react'
 
-export const FooterLogo = (props) => (
+export const Logo = (props) => (
   <chakra.svg
     color="accent"
     height="8"

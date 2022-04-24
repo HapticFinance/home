@@ -28,10 +28,10 @@ export const CTA = () => (
               md: 'md',
             })}
           >
-            Go to docs
+            Docs
           </Heading>
           <Text color="on-accent-muteed" maxW="2xl" textAlign="center" fontSize="xl">
-            Learn our Haptic works under the hood
+            Learn about how Haptic works under the hood
           </Text>
         </Stack>
         <Stack

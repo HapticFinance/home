@@ -1,66 +1,103 @@
-import { ButtonGroup, Container, IconButton, Stack, Text } from '@chakra-ui/react'
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  Container,
+  Divider,
+  IconButton,
+  Img,
+  SimpleGrid,
+  Stack,
+  Text,
+} from '@chakra-ui/react'
 import * as React from 'react'
-import { FaGithub, FaDiscord, FaMedium, FaTwitter } from 'react-icons/fa'
-// import { FooterLogo } from './FooterLogo'
+import { FaDiscord, FaGithub, FaMedium, FaTwitter } from 'react-icons/fa'
+import { links } from './_footerData'
 
 export const Footer = () => (
-  <Container
-    as="footer"
-    role="contentinfo"
-    py={{
-      base: '12',
-      md: '16',
-    }}
-  >
-    <Stack
-      spacing={{
-        base: '4',
-        md: '5',
-      }}
-    >
-      <Stack justify="space-between" direction="row" align="center">
-        <img 
-          src='https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg' 
-          style={{
-            maxWidth:'100px',
+  <Box bg="bg-surface">
+    <Container as="footer" role="contentinfo" padding="0 2.5em">
+      <Stack
+        justify="space-between"
+        align="center"
+        direction={{
+          base: 'column',
+          lg: 'row',
+        }}
+        py={{
+          base: '12',
+          md: '16',
+        }}
+        spacing="8"
+      >
+        <Stack
+          spacing={{
+            base: '6',
+            md: '8',
           }}
-        />
+          align="center"
+        >
+          <Img 
+            src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg" 
+            minW="15vh" 
+          />
+        </Stack>
+        <SimpleGrid
+          columns={{
+            base: 2,
+            md: 4,
+          }}
+          gap="8"
+          width={{
+            base: 'full',
+            lg: 'auto',
+          }}
+        >
+          {links.map((group, idx) => (
+            <Stack
+              key={idx}
+              spacing="4"
+              minW={{
+                lg: '40',
+              }}
+            >
+              <Text fontSize="sm" fontWeight="semibold" color="subtle">
+                {group.title}
+              </Text>
+              <Stack spacing="3" shouldWrapChildren>
+                {group.links.map((link, idx) => (
+                  <Button key={idx} as="a" variant="link" href={link.href}>
+                    {link.label}
+                  </Button>
+                ))}
+              </Stack>
+            </Stack>
+          ))}
+        </SimpleGrid>
+      </Stack>
+      <Divider />
+      <Stack
+        pt="8"
+        pb="12"
+        justify="space-between"
+        direction={{
+          base: 'column-reverse',
+          md: 'row',
+        }}
+        align="center"
+      >
+        <Text fontSize="sm" color="subtle">
+          &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
+        </Text>
         <ButtonGroup variant="ghost">
-          <IconButton
-            as="a"
-            href="https://twitter.com/hapticfinance"
-            target="_blank" 
-            aria-label="Twitter"
-            icon={<FaTwitter fontSize="1.25rem" />}
-          />
-          <IconButton 
-            as="a" 
-            href="https://discord.gg/ahJVRvjyzk" 
-            target="_blank" 
-            aria-label="Discord" 
-            icon={<FaDiscord fontSize="1.25rem" />} 
-          />
-          <IconButton
-            as="a"
-            href="https://medium.com/@hapticfinance"
-            target="_blank" 
-            aria-label="Medium"
-            icon={<FaMedium fontSize="1.25rem" />}
-          />
-          <IconButton 
-            as="a" 
-            href="https://github.com/HapticFinance"
-            target="_blank" 
-            aria-label="GitHub" 
-            icon={<FaGithub fontSize="1.25rem" />} 
-          />
+          <IconButton as="a" href="https://twitter.com/hapticfinance" aria-label="Twitter" icon={<FaTwitter />} />
+          <IconButton as="a" href="https://discord.gg/ahJVRvjyzk" aria-label="Discord" icon={<FaDiscord />} />
+          <IconButton as="a" href="https://medium.com/@hapticfinance" aria-label="Medium" icon={<FaMedium />} />
+          <IconButton as="a" href="https://github.com/HapticFinance" aria-label="Github" icon={<FaGithub />} />
         </ButtonGroup>
       </Stack>
-      <Text fontSize="sm" color="border">
-        &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
-      </Text>
-    </Stack>
-  </Container>
+    </Container>
+  </Box>
 )
 
 export default Footer;
