@@ -131,7 +131,7 @@ import {
             />
           </Flex>
           <Box>
-            {/* <CountDown /> */}
+            {/*<CountDown />*/}
             <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
               Interacts with:
             </Text>
