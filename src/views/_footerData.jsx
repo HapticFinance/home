@@ -30,11 +30,11 @@ export const links = [
       links: [
         {
           label: 'Discord',
-          href: '#',
+          href: 'https://discord.gg/ahJVRvjyzk',
         },
         {
-          label: 'Telegram',
-          href: '#',
+          label: 'Twitter',
+          href: 'https://twitter.com/hapticfinance',
         },
       ],
     },
