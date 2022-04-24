@@ -11,6 +11,9 @@ import { createBreakpoints } from '@chakra-ui/theme-tools'
 
 //Import pages
 import Home from './views/Home';
+import Privacy from './views/Privacy';
+import Terms from './views/Terms';
+import Brand from './views/Brand';
 
 export const App = () => {
 
@@ -83,7 +86,9 @@ export const App = () => {
           <Routes>
 
             <Route path='/' element={<Home/>} />
-
+            <Route path='/privacy-policy' element={<Privacy/>} />
+            <Route path='/terms' element={<Terms />} />
+            <Route path='/brand-assets' element={<Brand />} />
          
           </Routes>
         </Router>

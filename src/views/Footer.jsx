@@ -11,16 +11,15 @@ import {
   Text,
 } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaDiscord, FaGithub, FaLinkedin, FaMedium, FaTwitter } from 'react-icons/fa'
-import { Logo } from './FooterLogo'
+import { FaDiscord, FaGithub, FaMedium, FaTwitter } from 'react-icons/fa'
 import { links } from './_footerData'
 
 export const Footer = () => (
   <Box bg="bg-surface">
-    <Container as="footer" role="contentinfo">
+    <Container as="footer" role="contentinfo" padding="0 2.5em">
       <Stack
         justify="space-between"
-        align="start"
+        align="center"
         direction={{
           base: 'column',
           lg: 'row',
@@ -36,10 +35,12 @@ export const Footer = () => (
             base: '6',
             md: '8',
           }}
-          align="start"
+          align="center"
         >
-          <Img src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic-logo.svg" maxW="30vw" />
-          <Text color="muted">Increase capital efficiency on Ethereum</Text>
+          <Img 
+            src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg" 
+            minW="15vh" 
+          />
         </Stack>
         <SimpleGrid
           columns={{
@@ -89,10 +90,10 @@ export const Footer = () => (
           &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
         </Text>
         <ButtonGroup variant="ghost">
-          <IconButton as="a" href="https://twitter.com/hapticfinance" aria-label="Twitter" icon={<FaTwitter fontSize="1.25rem" />} />
-          <IconButton as="a" href="https://discord.gg/ahJVRvjyzk" aria-label="Discord" icon={<FaDiscord fontSize="1.25rem" />} />
-          <IconButton as="a" href="https://medium.com/@hapticfinance" aria-label="Medium" icon={<FaMedium fontSize="1.25rem" />} />
-          <IconButton as="a" href="https://github.com/HapticFinance" aria-label="Github" icon={<FaGithub fontSize="1.25rem" />} />
+          <IconButton as="a" href="https://twitter.com/hapticfinance" aria-label="Twitter" icon={<FaTwitter />} />
+          <IconButton as="a" href="https://discord.gg/ahJVRvjyzk" aria-label="Discord" icon={<FaDiscord />} />
+          <IconButton as="a" href="https://medium.com/@hapticfinance" aria-label="Medium" icon={<FaMedium />} />
+          <IconButton as="a" href="https://github.com/HapticFinance" aria-label="Github" icon={<FaGithub />} />
         </ButtonGroup>
       </Stack>
     </Container>
