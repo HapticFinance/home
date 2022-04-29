@@ -130,34 +130,7 @@ import {
               }}
             />
           </Flex>
-          <Box>
-            {/*<CountDown />*/}
-            <Text color={mode('gray.600', 'gray.400')} fontWeight="medium">
-              Interacts with:
-            </Text>
-            <SimpleGrid
-              mt="8"
-              columns={{
-                base: 2,
-                md: 3,
-                lg: 6,
-              }}
-              color="gray.500"
-              alignItems="center"
-              spacing={{
-                base: '12',
-                lg: '24',
-              }}
-              fontSize="2xl"
-            >
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg' minW='10vw' maxW='30vw' />
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg' minW='10vw' maxW='30vw' />
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg' minW='10vw' maxW='30vw' />
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/liquity.svg' minW='10vw' maxW='30vw' />
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg' minW='10vw' maxW='30vw' />
-              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg' minW='10vw' maxW='30vw' />
-            </SimpleGrid>
-          </Box>
+
         </Box>
       </Box>
     )

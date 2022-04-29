@@ -12,15 +12,17 @@ import CTA from './CTA';
 import Content from "./Content";
 import Composability from "./Composability";
 import Newsletter from "./Newsletter";
+import Marketing from "../components/marketing_1";
 
-
+import {Box, SimpleGrid, Img, Text, useColorModeValue as mode} from '@chakra-ui/react';
 const Home = () => {
 
     return(
         <>
             <NavBar />
             <Header />
-            <Banner />
+            <Marketing />
+            {/*<Banner />*/}
             <Content />
             <Lenders />
             <Features />

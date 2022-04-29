@@ -1,4 +1,4 @@
-import { Container, Flex, Box, Heading, SimpleGrid, Stack, Text, useColorModeValue } from '@chakra-ui/react'
+import { Container, Img, Flex, Box, Heading, SimpleGrid, Stack, Text, useColorModeValue as mode } from '@chakra-ui/react'
 import * as React from 'react'
 import { LendersStat } from './LendersStat'
 import { isMobile } from 'react-device-detect'
@@ -21,7 +21,7 @@ const stats = [
 export const Lenders = () => {
 
 return (
-      <Box as="section" py="24">
+      <Box as="section" py="24" marginTop="-80px">
         <Box
           maxW={{
             base: 'xl',
@@ -77,6 +77,33 @@ return (
               </SimpleGrid>
             </Box>
           </Flex>
+          <Box>
+            {/*<CountDown />*/}
+            <Text color={mode('gray.600', 'gray.400')} fontWeight="bold" marginTop="50px">
+              Interacts with:
+            </Text>
+            <SimpleGrid
+              mt="8"
+              columns={{
+                base: 2,
+                md: 3,
+                lg: 6,
+              }}
+              color="gray.500"
+              alignItems="center"
+              spacing={{
+                base: '12',
+                lg: '24',
+              }}
+              fontSize="2xl"
+            >
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/optimism.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/synthetix.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/lyra.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/perpetual.svg' minW='10vw' maxW='30vw' />
+              <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/uniswap.svg' minW='10vw' maxW='30vw' />
+            </SimpleGrid>
+          </Box>
         </Box>
       </Box>
 )
