@@ -42,10 +42,6 @@ export const links = [
       title: 'Resources',
       links: [
         {
-          label: 'Medium',
-          href: 'https://haptic.finance/brand-assets',
-        },
-        {
           label: 'Branding',
           href: 'https://haptic.finance/brand-assets',
         },
