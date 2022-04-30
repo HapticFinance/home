@@ -15,6 +15,7 @@ import {
     useColorModeValue as mode,
   } from '@chakra-ui/react'
   import React, { useEffect, useState } from "react";
+import { isMobile } from 'react-device-detect';
   
   const calculateTimeLeft = () => {
     
@@ -61,15 +62,17 @@ import {
       
       const CountDown = () => {
         return (
-          <>
+          <div style={isMobile ? {} :{float:"left", marginLeft:"-45%", marginTop:"15%"}}>
             <Stat>
-              <StatLabel><h1 style={{fontSize:"19px"}}>Time left to seed round on Aelin</h1></StatLabel>
-              <StatNumber style={{marginTop:"10px"}}>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</StatNumber>
-              <StatHelpText style={{fontSize:"16px", marginTop:"10px"}}>Sale happening from May 7 to May 21</StatHelpText>
+              <StatLabel><h1 style={{fontSize:"19px"}}>Seed round starts in:</h1></StatLabel>
+              <StatNumber style={{marginTop:"10px"}}>
+                {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+              </StatNumber>
+              <StatHelpText style={{fontSize:"16px", marginTop:"10px"}}>Lasts May 7 to May 21</StatHelpText>
             </Stat>
             <br />
             <br />
-          </>
+          </div>
         );
       }
 
@@ -115,10 +118,12 @@ import {
             <Box
               flex="1"
               pt="6"
-            >
+            > 
+              <CountDown /> 
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold" textAlign="right">
                 Bridging decentralized finance
               </Heading>
+
               <Text color={mode('gray.600', 'gray.400')} mt="5" fontSize="xl" textAlign="right" maxW={{ lg: 'xl'}} marginLeft={"25%"}>
                 Haptic is designed to increase capital efficiency and reduce impermanent loss across automated market makers.
               </Text>

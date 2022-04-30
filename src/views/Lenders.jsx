@@ -18,6 +18,7 @@ const stats = [
   },
 ]
 
+
 export const Lenders = () => {
 
 return (
@@ -78,7 +79,6 @@ return (
             </Box>
           </Flex>
           <Box>
-            {/*<CountDown />*/}
             <Text color={mode('gray.600', 'gray.400')} fontWeight="bold" marginTop="50px">
               Interacts with:
             </Text>
