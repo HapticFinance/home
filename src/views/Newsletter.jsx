@@ -107,12 +107,7 @@ import {
 
     return (
         <Box bgGradient="linear(to-b, bg-accent 50%, bg-canvas 50%, )">
-        <Container
-          py={{
-            base: '16',
-            md: '24',
-          }}
-        >
+  
           <Box
             bg="linear-gradient(-45deg, #4e339a,#33429a)"
             color="white"
@@ -124,9 +119,12 @@ import {
               base: '6',
               md: '16',
             }}
-            borderRadius="lg"
             boxShadow={useColorModeValue('lg', 'lg-dark')}
+            marginTop="5%"
+
           >
+            <div style={{maxWidth:"90%", marginLeft:"12%", marginRight:"12%"}}>
+
             <Stack
               spacing={{
                 base: '8',
@@ -206,10 +204,9 @@ import {
                 </Button>
               </Stack>
             </Stack>
+            </div>
           </Box>
-          <StyledContainer />
 
-        </Container>
       </Box>
     )
   } 
