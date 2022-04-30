@@ -26,6 +26,11 @@ const Marketing = ({...props}) => {
         webkitBackgroundClip: "text",
         webkitTextFillColor: "transparent"
     }
+    const uniswap = {
+        background: "-webkit-linear-gradient(#FF007B, #F76BB8)",
+        webkitBackgroundClip: "text",
+        webkitTextFillColor: "transparent"
+    }
 
     return ( 
         !isMobile ?
@@ -46,7 +51,7 @@ const Marketing = ({...props}) => {
                     <Box style={{ border:"0px solid white"}} width={"250px"}>
                     <div style={{color:"white", fontWeight:"bold"}}>
                         <p style={{fontSize:"21px"}}>Haptic seed round </p>
-                        <p>Upcoming on Aelin.xyz</p>
+                        <p style={kain}>Upcoming on Aelin.xyz</p>
                         <Button style={styledBtn}>Learn more</Button>
 
                     </div>
@@ -67,8 +72,8 @@ const Marketing = ({...props}) => {
                     <Box style={{ border:"0px solid white"}} width={"250px"}>
                         <div style={{color:"white", fontWeight:"bold"}}>
                                 <p style={{fontSize:"21px"}}>Half of Uniswap LP </p>
-                                <p>lost collectively</p>
-                                <p><span style={{fontSize:"26px"}}>$260M</span> in 2021</p>
+                                <p style={uniswap}>lost collectively</p>
+                                <p><span style={{fontSize:"26px", color:"#d7dbe0"}}>$260M</span> in 2021</p>
 
                         </div>
                     </Box>
@@ -85,7 +90,7 @@ const Marketing = ({...props}) => {
                         <div style={{color:"white", fontWeight:"bold"}}>
                                 <p style={{fontSize:"21px"}}>Mentored by </p>
                                 <p style={kain}>Kain Warwick 👑</p>
-                                <p><span style={{fontSize:"26px"}}>#L222</span> </p>
+                                <p><span style={{fontSize:"26px", color:"#d7dbe0"}}>#L222</span> </p>
 
                         </div>
                     </Box>
