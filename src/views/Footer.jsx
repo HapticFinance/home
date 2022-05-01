@@ -11,7 +11,7 @@ import {
   Text,
 } from '@chakra-ui/react'
 import * as React from 'react'
-import { FaDiscord, FaGithub, FaMedium, FaTwitter } from 'react-icons/fa'
+import { FaDiscord, FaGithub, FaBook, FaMedium, FaTwitter } from 'react-icons/fa'
 import { links } from './_footerData'
 
 export const Footer = () => (
@@ -90,10 +90,11 @@ export const Footer = () => (
           &copy; {new Date().getFullYear()} Haptic Finance. All rights reserved.
         </Text>
         <ButtonGroup variant="ghost">
-          <IconButton as="a" href="https://twitter.com/hapticfinance" aria-label="Twitter" icon={<FaTwitter />} />
-          <IconButton as="a" href="https://discord.gg/ahJVRvjyzk" aria-label="Discord" icon={<FaDiscord />} />
-          <IconButton as="a" href="https://medium.com/@hapticfinance" aria-label="Medium" icon={<FaMedium />} />
-          <IconButton as="a" href="https://github.com/HapticFinance" aria-label="Github" icon={<FaGithub />} />
+          <IconButton as="a" href="https://docs.haptic.finance/" target="_blank" aria-label="Docs" icon={<FaBook />} />
+          <IconButton as="a" href="https://twitter.com/hapticfinance" target="_blank" aria-label="Twitter" icon={<FaTwitter />} />
+          <IconButton as="a" href="https://discord.gg/ahJVRvjyzk" target="_blank" aria-label="Discord" icon={<FaDiscord />} />
+          <IconButton as="a" href="https://medium.com/@hapticfinance" target="_blank" aria-label="Medium" icon={<FaMedium />} />
+          <IconButton as="a" href="https://github.com/HapticFinance" target="_blank" aria-label="Github" icon={<FaGithub />} />
         </ButtonGroup>
       </Stack>
     </Container>

@@ -7,7 +7,7 @@ import {
     IconButton,
   } from '@chakra-ui/react'
   import * as React from 'react'
-  import { FaGithub, FaDiscord, FaMedium, FaTwitter } from 'react-icons/fa'
+  import { FaGithub, FaDiscord, FaBook, FaMedium, FaTwitter } from 'react-icons/fa'
 
   
   export const Navbar = () => {
@@ -33,34 +33,11 @@ import {
               />
                 <HStack spacing="10">
                   <ButtonGroup variant="ghost">
-                    <IconButton
-                      as="a"
-                      href="https://twitter.com/hapticfinance"
-                      target="_blank" 
-                      aria-label="Twitter"
-                      icon={<FaTwitter fontSize="1rem" />}
-                    />
-                    <IconButton 
-                      as="a" 
-                      href="https://discord.gg/ahJVRvjyzk" 
-                      target="_blank" 
-                      aria-label="Discord" 
-                      icon={<FaDiscord fontSize="1rem" />} 
-                    />
-                    <IconButton
-                      as="a"
-                      href="https://medium.com/@hapticfinance"
-                      target="_blank" 
-                      aria-label="Medium"
-                      icon={<FaMedium fontSize="1rem" />}
-                    />
-                    <IconButton 
-                      as="a" 
-                      href="https://github.com/HapticFinance"
-                      target="_blank" 
-                      aria-label="GitHub" 
-                      icon={<FaGithub fontSize="1rem" />} 
-                    />
+                    <IconButton as="a" href="https://docs.haptic.finance/" target="_blank" aria-label="Docs" icon={<FaBook fontSize="1rem" />} />
+                    <IconButton as="a" href="https://twitter.com/hapticfinance" target="_blank" aria-label="Twitter" icon={<FaTwitter fontSize="1rem" />} />
+                    <IconButton  as="a" href="https://discord.gg/ahJVRvjyzk" target="_blank" aria-label="Discord" icon={<FaDiscord fontSize="1rem" />} />
+                    <IconButton as="a" href="https://medium.com/@hapticfinance" target="_blank" aria-label="Medium" icon={<FaMedium fontSize="1rem" />} />
+                    <IconButton as="a" href="https://github.com/HapticFinance" target="_blank" aria-label="GitHub" icon={<FaGithub fontSize="1rem" />} />
                   </ButtonGroup>
                 </HStack>
             </HStack>
