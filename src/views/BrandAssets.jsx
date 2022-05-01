@@ -25,7 +25,6 @@ import {
           }}
           fontWeight="medium"
           color="muted"
-          textAlign="center"
         >
           Brand Guidelines
         </Text>
@@ -51,7 +50,12 @@ import {
                 boxShadow={mode('sm', 'sm-dark')}
                 borderRadius="lg"
             >
-                <img src='https://raw.githubusercontent.com/HapticFinance/assets/8d6f4e31159fb5094ee617917735bad120123269/haptic-logo.svg' />
+                <img 
+                  src='https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png' 
+                  style={{
+                    maxWidth: '150px',
+                  }} 
+                />
             </Center>
             <Center
                 bg="bg-surface"
@@ -62,7 +66,7 @@ import {
                 boxShadow={mode('sm', 'sm-dark')}
                 borderRadius="lg"
             >
-                <img src='https://raw.githubusercontent.com/HapticFinance/assets/8d6f4e31159fb5094ee617917735bad120123269/ethereum.svg' />
+                <img src='https://raw.githubusercontent.com/HapticFinance/assets/8d6f4e31159fb5094ee617917735bad120123269/haptic-logo.svg' />
             </Center>
         </SimpleGrid>
       </Stack>
@@ -74,9 +78,8 @@ import {
           }}
           fontWeight="medium"
           color="muted"
-          textAlign="center"
         >
-          Brand Guidelines
+          Dark Version
         </Text>
         <SimpleGrid
           gap={{
@@ -89,7 +92,7 @@ import {
           }}
         >
             <Center
-                bg="bg-surface"
+                bg="#3c3c3c"
                 py={{
                 base: '6',
                 md: '6',
@@ -97,10 +100,15 @@ import {
                 boxShadow={mode('sm', 'sm-dark')}
                 borderRadius="lg"
             >
-                <img src='https://raw.githubusercontent.com/HapticFinance/assets/8d6f4e31159fb5094ee617917735bad120123269/haptic-logo.svg' />
+                <img 
+                  src='https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_white.png' 
+                  style={{
+                    maxWidth: '150px',
+                  }} 
+                />
             </Center>
             <Center
-                bg="bg-surface"
+                bg="#3c3c3c"
                 py={{
                 base: '6',
                 md: '8',
@@ -108,7 +116,7 @@ import {
                 boxShadow={mode('sm', 'sm-dark')}
                 borderRadius="lg"
             >
-                <img src='https://raw.githubusercontent.com/HapticFinance/assets/8d6f4e31159fb5094ee617917735bad120123269/ethereum.svg' />
+                <img src='https://raw.githubusercontent.com/HapticFinance/assets/da4d9e3f02d57da0e4782e1f0cd8342f553044db/haptic-logo-white.svg' />
             </Center>
         </SimpleGrid>
       </Stack>
