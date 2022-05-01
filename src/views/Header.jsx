@@ -119,7 +119,7 @@ import { isMobile } from 'react-device-detect';
               flex="1"
               pt="6"
             > 
-              {"<CountDown />"} 
+              {/*<CountDown />*/} 
               <Heading as="h1" size="3xl" mt="8" fontWeight="extrabold" textAlign="right">
                 Bridging decentralized finance
               </Heading>
