@@ -30,6 +30,7 @@ import {
                 style={{
                   maxWidth:'100px'
                 }}
+                
               />
                 <HStack spacing="10">
                   <ButtonGroup variant="ghost">

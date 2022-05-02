@@ -38,8 +38,8 @@ export const Footer = () => (
           align="center"
         >
           <Img 
-            src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic.svg" 
-            minW="15vh" 
+            src="https://raw.githubusercontent.com/HapticFinance/assets/main/haptic_logo_blue.png" 
+            maxW="10vh" 
           />
         </Stack>
         <SimpleGrid
