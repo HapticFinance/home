@@ -1,0 +1,58 @@
+import { Center, Container, Heading, Img, SimpleGrid, Stack, Text } from '@chakra-ui/react'
+import * as React from 'react'
+import * as logos from './PartnerLogos'
+
+export const Partners = () => (
+  <Container
+    py={{
+      base: '12',
+      md: '16',
+    }}
+  >
+    <Stack
+      spacing={{
+        base: '4',
+        md: '5',
+      }}
+    >
+      <Heading
+        fontWeight="500"
+        size={{
+          base: 'sm',
+          md: 'md',
+        }}
+        fontSize="2.5em"
+        paddingBottom={{
+          base: '0',
+          sm: '10',
+        }}
+      >
+        Partners
+      </Heading>
+    </Stack>
+    <Stack spacing="8">
+      <SimpleGrid
+        gap={{
+          base: '4',
+          md: '8',
+        }}
+        columns={{
+          base: 2,
+          md: 2,
+          lg: 2,
+          sm: 1,
+        }}
+        textAlign="center"
+      >
+        <Center>
+          <Img src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/b98rj4rlxbkhcrrldzss' width='200px' />
+        </Center>
+        <Center>
+          <Img src='https://pbs.twimg.com/profile_images/1476106097345777665/xX7rPkc8_400x400.jpg' width='200px' />
+        </Center>
+      </SimpleGrid>
+    </Stack>
+  </Container>
+)
+
+export default Partners;

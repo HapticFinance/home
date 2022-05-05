@@ -37,10 +37,12 @@ import {
               }}
             >
               <Heading
-                size={useBreakpointValue({
+                fontWeight="500"
+                size={{
                   base: 'sm',
                   md: 'md',
-                })}
+                }}
+                fontSize="2.5em"
               >
                 Meet our team
               </Heading>

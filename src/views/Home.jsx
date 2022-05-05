@@ -8,6 +8,7 @@ import Roadmap from "./Roadmap";
 import Footer from "./Footer";
 import Team from "./Team";
 import Lenders from "./Lenders";
+import Partners from "../components/Partners";
 import CTA from './CTA';
 import Content from "./Content";
 import Composability from "./Composability";
@@ -29,6 +30,7 @@ const Home = () => {
             <Composability />
             <CTA />
             <Team />
+            <Partners />
             <Roadmap />
             <Newsletter />
             <Footer />
@@ -36,7 +38,4 @@ const Home = () => {
     )
 }
 
-
 export default Home;
-
-
