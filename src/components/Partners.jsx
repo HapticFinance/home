@@ -45,10 +45,10 @@ export const Partners = () => (
         textAlign="center"
       >
         <Center>
-          <Img src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/b98rj4rlxbkhcrrldzss' width='200px' />
+          <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/cc.png' width='300px' />
         </Center>
         <Center>
-          <Img src='https://pbs.twimg.com/profile_images/1476106097345777665/xX7rPkc8_400x400.jpg' width='200px' />
+          <Img src='https://raw.githubusercontent.com/HapticFinance/assets/main/nr.png' width='300px' />
         </Center>
       </SimpleGrid>
     </Stack>
